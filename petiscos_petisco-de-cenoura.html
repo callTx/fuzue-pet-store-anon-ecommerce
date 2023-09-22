@@ -318,12 +318,30 @@
                         <p class="price">R$ 25,00</p>
                       </div>
 
-                      <a href="https://api.whatsapp.com/send?phone=+559184093870&text=teste%20de%20mensagem" target="_blank" rel="noopener noreferrer">
-                        <button class="add-cart-btn" style="display: flex; align-items: center;">
-                          <img src="./assets/images/icons/whatsapp-color-svgrepo-com.svg" alt="SVG Alt Text" width="32" height="32" style="margin-right: 10px;">
-                          Comprar
-                        </button>
-                      </a>
+                      <button class="add-cart-btn" onclick="openWhatsApp()">
+                        Comprar
+                        <img src="./assets/images/icons/whatsapp-color-svgrepo-com.svg" alt="SVG Alt Text" width="32" height="32" style="margin-right: 10px;">
+                      </button>
+                    
+                      <script>
+                        function openWhatsApp() {
+                          // Phone number (replace with your desired phone number)
+                          const phoneNumber = '+559184093870';
+                    
+                          // Product name (replace with the appropriate product name)
+                          const productName = 'Petisco de Cenoura';
+                    
+                          // Message text
+                          const message = `Olá! Gostaria de comprar o produto "${productName}".`;
+                    
+                          // Encode the message and create the WhatsApp link
+                          const encodedMessage = encodeURIComponent(message);
+                          const whatsappLink = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodedMessage}`;
+                    
+                          // Open the link in a new tab
+                          window.open(whatsappLink, '_blank', 'noopener noreferrer');
+                        }
+                      </script>
                       
 
                       <!-- <div class="showcase-status">
