@@ -745,6 +745,7 @@ const products = [
   
   function generateProductHTML(product) {
     return `
+    <div class="product-grid">
       <div class="showcase">
         <div class="showcase-banner">
           <img src="${product.imgSrc}" alt="${product.altText}" width="300" class="product-img default">
@@ -764,6 +765,7 @@ const products = [
             <p class="price">${product.price}</p>
           </div>
         </div>
+      </div>
       </div>`;
   }
   
