@@ -79,7 +79,7 @@ const products = [
     nameTitle: "Biscoito de Banana e Aveia",
     title: "Biscoito de Banana e Aveia The Bull",
     price: "R$ 25,00",
-    pageSrc: "#"
+    pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/petiscos_biscoito-de-banana-e-aveia.html"
   },
 ];
 
