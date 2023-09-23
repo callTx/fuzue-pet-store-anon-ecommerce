@@ -4,20 +4,20 @@ const products = [
     imgSrc: "./assets/images/products/petisco-de-cenoura.jpg",
     altText: "Petisco de Cenoura",
     nameTitle: "Petisco de Cenoura",
-    title: "Petiscos Assados The Bull",
-    price: "R$18,90",
-    pageSrc: "#",
-    parametros: "#"
+    title: "Petisco de Cenoura The Bull",
+    price: "R$25,00",
+    pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html",
+    parametros: "?imgSrcProductName=biscoito-de-banana-e-aveia.jpg&showcaseTitle=Biscoito de Banana e Aveia&showcaseDesc=O Biscoito para Treino Cenoura é preparado em um formato específico para utilização durante os treinos e também atividades de enriquecimento ambiental. Produzido artesanalmente com ingredientes naturais, o Biscoito para Treino Cenoura não tem adição de trigo, conservantes artificiais, açúcares, corantes, aromatizantes ou qualquer coisa prejudicial à saúde do seu cachorro. Os biscoitos The Bull são 100% naturais e 0% blá blá blá!.&price=R$ 25,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Petisco de Cenoura The Bull'."
   },
   {
     category:"petiscos_naturais",
-    imgSrc: "./assets/images/products/snack-de-frango.jpg",
-    altText: "Snack de Frango",
-    nameTitle: "Snack de Frango",
-    title: "Snack de Frango The Bull",
-    price: "R$28,90",
-    pageSrc: "#",
-    parametros: "#"
+    imgSrc: "./assets/images/products/farofinha-de-pulmao-suino-e-curcuma.jpg",
+    altText: "Farofinha de Pulmão Suíno e Cúrcuma",
+    nameTitle: "Farofinha de Pulmão Suíno e Cúrcuma",
+    title: "Farofinha de Pulmão Suíno e Cúrcuma The Bull",
+    price: "R$34,00",
+    pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html",
+    parametros: "?imgSrcProductName=biscoito-de-banana-e-aveia.jpg&showcaseTitle=Biscoito de Banana e Aveia&showcaseDesc=A Farofinha da The Bull é um saborizante natural feito artesanalmente com pulmão suíno e cúrcuma com 40g. Ela foi desenvolvida para ser um agrado na alimentação do seu peludo, pois é extremamente palatável e possui baixa caloria, ajudando a não interferir na dieta. Não Possui conservantes ou aditivos químicos, é 100% natural, como tem que ser.&price=R$ 34,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Farofinha de Pulmão Suíno e Cúrcuma'."
   },
   {
     category:"petiscos_naturais",
@@ -26,8 +26,8 @@ const products = [
     nameTitle: "Snack Filé Suíno",
     title: "Snack Filé Suíno The Bull",
     price: "R$ 30,00",
-    pageSrc: "#",
-    parametros: "#"
+    pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html",
+    parametros: "?imgSrcProductName=biscoito-de-banana-e-aveia.jpg&showcaseTitle=Biscoito de Banana e Aveia&showcaseDesc=O Snack de Filé Mignon Suíno The Bull é um petisco desidratado 100% natural, com um único ingrediente e 0% blá blá blá. Fabricado sem adição de farinha de trigo, livre de qualquer conservante, açucares, corantes, aromatizantes e aditivos químicos. É um item indispensável para ser utilizado como recompensa nos treinos dos pets e para enriquecimento ambiental. IMPORTANTE: Este produto não substitui a alimentação principal.&price=R$ 30,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Snack Filé Suíno The Bull'."
   },
   
   {
@@ -37,8 +37,8 @@ const products = [
     nameTitle: "Snack de Frango",
     title: "Snack de Frango The Bull",
     price: "R$ 28,00",
-    pageSrc: "#",
-    parametros: "#"
+    pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html",
+    parametros: "?imgSrcProductName=biscoito-de-banana-e-aveia.jpg&showcaseTitle=Biscoito de Banana e Aveia&showcaseDesc=O petisco de frango desidratado é perfeito para utilização durante os treinos e enriquecimento ambiental. Preparados com muito amor, a nossa linha de desidratados é produzida com um único ingrediente e 0% blá blá blá. Ou seja, sem adição de trigo, livre de qualquer conservante, açucares, corantes, aromatizantes e aditivos químicos. Para manter seus petiscos fresquinhos por mais tempo, você deve mante-lo em local fresco, seco e ao abrigo da luz solar. Após abrir, você pode armazenar em um pote com tampa ou na mesma embalagem bem fechada e, consumir preferencialmente em até 20 dias.&price=R$ 28,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Snack de Frango The Bull'."
   },
   {
     category:"petiscos_naturais",
@@ -47,8 +47,8 @@ const products = [
     nameTitle: "Snack de Fígado",
     title: "Snack de Fígado The Bull",
     price: "R$ 28,00",
-    pageSrc: "#",
-    parametros: "#"
+    pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html",
+    parametros: "?imgSrcProductName=biscoito-de-banana-e-aveia.jpg&showcaseTitle=Biscoito de Banana e Aveia&showcaseDesc=Os petiscos desidratados são perfeitos para utilização durante os treinos e enriquecimento ambiental. Preparados com muito amor, a nossa linha de desidratados é produzida com um único ingrediente e 0% blá blá blá. Ou seja, sem adição de trigo, livre de qualquer conservante, açucares, corantes, aromatizantes e aditivos químicos. Para manter seus petiscos fresquinhos por mais tempo, você deve mante-lo em local fresco, seco e ao abrigo da luz solar. Após abrir, você pode armazenar em um pote com tampa ou na mesma embalagem bem fechada e, consumir preferencialmente em até 20 dias.&price=R$ 28,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Snack de Fígado The Bull'."
   },
   {
     category:"petiscos_naturais",
@@ -57,8 +57,8 @@ const products = [
     nameTitle: "Snack de Fígado de Avestruz",
     title: "Snack de Fígado de Avestruz The Bull",
     price: "R$ 36,00",
-    pageSrc: "#",
-    parametros: "#"
+    pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html",
+    parametros: "?imgSrcProductName=biscoito-de-banana-e-aveia.jpg&showcaseTitle=Biscoito de Banana e Aveia&showcaseDesc=O Snack Fígado de Avestruz é um petisco desidratado 100% natural com um único ingregiente e 0% blá blá blá. A proteína exótica de Avestruz é excelente para cães alérgicos ou sensíveis as demais proteínas. Fabricado sem adição de farinha de trigo, livre de qualquer conservante, açucares, corantes, aromatizantes e aditivos químicos. É um item indispensável para ser utilizado como recompensa nos treinos dos pets e para enriquecimento ambiental. IMPORTANTE: Este produto não substitui a alimentação principal.&price=R$ 36,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Snack de Fígado de Avestruz The Bull'."
   },
   {
     category:"petiscos_naturais",
@@ -67,8 +67,8 @@ const products = [
     nameTitle: "Snack de Manjuba",
     title: "Snack de Manjuba The Bull",
     price: "R$ 30,00",
-    pageSrc: "#",
-    parametros: "#"
+    pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html",
+    parametros: "?imgSrcProductName=biscoito-de-banana-e-aveia.jpg&showcaseTitle=Biscoito de Banana e Aveia&showcaseDesc=Os petiscos desidratados são perfeitos para utilização durante os treinos e enriquecimento ambiental. Preparados com muito amor, a nossa linha de desidratados é produzida com um único ingrediente e 0% blá blá blá. Ou seja, sem adição de trigo, livre de qualquer conservante, açucares, corantes, aromatizantes e aditivos químicos. Para manter seus petiscos fresquinhos por mais tempo, você deve mante-lo em local fresco, seco e ao abrigo da luz solar. Após abrir, você pode armazenar em um pote com tampa ou na mesma embalagem bem fechada e, consumir preferencialmente em até 20 dias.&price=R$ 30,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Snack de Manjuba The Bull'."
   },
   {
     category:"petiscos_naturais",
@@ -77,8 +77,8 @@ const products = [
     nameTitle: "Snack de Buchinho",
     title: "Snack de Buchinho The Bull",
     price: "R$ 28,00",
-    pageSrc: "#",
-    parametros: "#"
+    pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html",
+    parametros: "?imgSrcProductName=biscoito-de-banana-e-aveia.jpg&showcaseTitle=Biscoito de Banana e Aveia&showcaseDesc=Os petiscos desidratados são perfeitos para utilização durante os treinos e enriquecimento ambiental. Preparados com muito amor, a nossa linha de desidratados é produzida com um único ingrediente e 0% blá blá blá. Ou seja, sem adição de trigo, livre de qualquer conservante, açucares, corantes, aromatizantes e aditivos químicos. Para manter seus petiscos fresquinhos por mais tempo, você deve mante-lo em local fresco, seco e ao abrigo da luz solar. Após abrir, você pode armazenar em um pote com tampa ou na mesma embalagem bem fechada e, consumir preferencialmente em até 20 dias.&price=R$ 28,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Snack de Buchinho The Bull'."
   },
   {
     category:"petiscos_naturais",
@@ -88,7 +88,7 @@ const products = [
     title: "Biscoito de Banana e Aveia The Bull",
     price: "R$ 25,00",
     pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html",
-    parametros: "?imgSrcProductName=biscoito-de-banana-e-aveia.jpg&showcaseTitle=Biscoito de Banana e Aveia&showcaseDesc=Os BISCOITOS NATURAIS são alimentos funcionais preparados para mimar e recompensar o seu cão. Produzidos artesanalmente com ingredientes naturais, sem adição de trigo, conservantes artificiais, açucares, corantes, aromatizantes ou qualquer coisa prejudicial a saúde do seu animal. Para manter seus petiscos fresquinhos por mais tempo, você deve mante-lo em local fresco, seco e ao abrigo da luz solar. Após abrir, você pode armazenar em um pote com tampa ou na mesma embalagem bem fechada e, consumir preferencialmente em até 20 dias. Pode ser conservado em geladeira. Os petiscos estão em uma embalagem de ZIP LOCK, ela permite que você abra e feche os produtos sempre que necessário! Mas lembre-se que este produto não substitui a alimentação principal.&price=R$ 25,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto Biscoito de Banana e Aveia."
+    parametros: "?imgSrcProductName=biscoito-de-banana-e-aveia.jpg&showcaseTitle=Biscoito de Banana e Aveia&showcaseDesc=Os BISCOITOS NATURAIS são alimentos funcionais preparados para mimar e recompensar o seu cão. Produzidos artesanalmente com ingredientes naturais, sem adição de trigo, conservantes artificiais, açucares, corantes, aromatizantes ou qualquer coisa prejudicial a saúde do seu animal. Para manter seus petiscos fresquinhos por mais tempo, você deve mante-lo em local fresco, seco e ao abrigo da luz solar. Após abrir, você pode armazenar em um pote com tampa ou na mesma embalagem bem fechada e, consumir preferencialmente em até 20 dias. Pode ser conservado em geladeira. Os petiscos estão em uma embalagem de ZIP LOCK, ela permite que você abra e feche os produtos sempre que necessário! Mas lembre-se que este produto não substitui a alimentação principal.&price=R$ 25,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Biscoito de Banana e Aveia'."
   },
 ];
 
