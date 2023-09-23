@@ -19,6 +19,7 @@ productMainDiv.appendChild(titleH2);
 
 // Iterate through products and generate HTML for each product
 function getParameterByName(name, url) {
+  console.log("url: ",url);
   if (!url) url = window.location.href;
   name = name.replace(/[\[\]]/g, '\\$&');
   const regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)');
