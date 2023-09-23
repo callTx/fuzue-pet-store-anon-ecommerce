@@ -134,6 +134,7 @@ const filteredProducts = products.filter(product => product.category === categor
 
 filteredProducts.forEach((product) => {
   parametrosFormatados =  replaceSpacesWithPercent20(product.parametros);
+  console.log("parametrosFormatados: ",parametrosFormatados);
   const productHTML = generateProductHTML(product,parametrosFormatados);
   productGridDiv.innerHTML += productHTML;
 });
