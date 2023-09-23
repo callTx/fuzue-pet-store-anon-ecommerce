@@ -102,7 +102,12 @@ titleH2.textContent = "Petiscos Naturais";
 const productGridDiv = document.createElement("div");
 productGridDiv.classList.add("product-grid");
 
+
 // Iterate through products and generate HTML for each product
+const category = document.getElementById('showcase').dataset.category;
+
+const filteredProducts = products.filter(product => product.category === category);
+
 products.forEach((product) => {
   const productHTML = generateProductHTML(product);
   productGridDiv.innerHTML += productHTML;
