@@ -1,6 +1,6 @@
 const products = [
   {
-    category:"petiscos naturais",
+    category:"petiscos_naturais",
     imgSrc: "./assets/images/products/petisco-de-cenoura.jpg",
     altText: "Petisco de Cenoura",
     nameTitle: "Petisco de Cenoura",
@@ -9,7 +9,7 @@ const products = [
     pageSrc: "#"
   },
   {
-    category:"petiscos naturais",
+    category:"petiscos_naturais",
     imgSrc: "./assets/images/products/snack-de-frango.jpg",
     altText: "Snack de Frango",
     nameTitle: "Snack de Frango",
@@ -18,7 +18,7 @@ const products = [
     pageSrc: "#"
   },
   {
-    category:"petiscos naturais",
+    category:"petiscos_naturais",
     imgSrc: "./assets/images/products/Snack-file-suino.jpg",
     altText: "Snack Filé Suíno",
     nameTitle: "Snack Filé Suíno",
@@ -28,7 +28,7 @@ const products = [
   },
   
   {
-    category:"petiscos naturais",
+    category:"petiscos_naturais",
     imgSrc: "./assets/images/products/snack-de-frango.jpg",
     altText: "Snack de Frango",
     nameTitle: "Snack de Frango",
@@ -37,7 +37,7 @@ const products = [
     pageSrc: "#"
   },
   {
-    category:"petiscos naturais",
+    category:"petiscos_naturais",
     imgSrc: "./assets/images/products/snack-de-figado.jpg",
     altText: "Snack de Fígado",
     nameTitle: "Snack de Fígado",
@@ -46,7 +46,7 @@ const products = [
     pageSrc: "#"
   },
   {
-    category:"petiscos naturais",
+    category:"petiscos_naturais",
     imgSrc: "./assets/images/products/snack-figado-de-avestruz.jpg",
     altText: "Snack de Fígado de Avestruz",
     nameTitle: "Snack de Fígado de Avestruz",
@@ -55,7 +55,7 @@ const products = [
     pageSrc: "#"
   },
   {
-    category:"petiscos naturais",
+    category:"petiscos_naturais",
     imgSrc: "./assets/images/products/snack-de-manjuba.jpg",
     altText: "Snack de Manjuba",
     nameTitle: "Snack de Manjuba",
@@ -64,7 +64,7 @@ const products = [
     pageSrc: "#"
   },
   {
-    category:"petiscos naturais",
+    category:"petiscos_naturais",
     imgSrc: "./assets/images/products/snack-de-buchino.jpg",
     altText: "Snack de Buchinho",
     nameTitle: "Snack de Buchinho",
@@ -73,7 +73,7 @@ const products = [
     pageSrc: "#"
   },
   {
-    category:"petiscos naturais",
+    category:"petiscos_naturais",
     imgSrc: "./assets/images/products/biscoito-de-banana-e-aveia.jpg",
     altText: "Biscoito de Banana e Aveia",
     nameTitle: "Biscoito de Banana e Aveia",
@@ -116,7 +116,7 @@ function getParameterByName(name, url) {
 
 // Get the category parameter from the URL
 const category = getParameterByName('category');
-console.log("Parametro recebido: ",category);
+// console.log("Parametro recebido: ",category);
 
 //const category = document.getElementById('showcase').dataset.category;
 
