@@ -301,6 +301,11 @@
 
                 // Function to create product showcase elements
                 function createProductShowcase(product) {
+                  const link = document.createElement('link');
+                  link.rel = 'stylesheet';
+                  link.href = './assets/css/style-prefix.css';
+                  document.head.appendChild(link);
+                  
                   const showcaseDiv = document.createElement('div');
                   showcaseDiv.className = 'showcase';
 
