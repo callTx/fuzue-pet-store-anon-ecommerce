@@ -81,6 +81,15 @@ const products = [
     price: "R$ 25,00",
     pageSrc: "#"
   },
+  {
+    category:"petiscos naturais teste",
+    imgSrc: "./assets/images/products/biscoito-de-banana-e-aveia.jpg",
+    altText: "Biscoito de Banana e Aveia teste",
+    nameTitle: "Biscoito de Banana e Aveia teste",
+    title: "Biscoito de Banana e Aveia The Bull teste",
+    price: "R$ 25,00",
+    pageSrc: "#"
+  },
 ];
 
 const productContainer = document.createElement("div");
