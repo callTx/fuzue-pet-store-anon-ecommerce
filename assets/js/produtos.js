@@ -117,7 +117,7 @@ const category = document.getElementById('showcase').dataset.category;
 
 const filteredProducts = products.filter(product => product.category === category);
 
-products.forEach((product) => {
+filteredProducts.forEach((product) => {
   const productHTML = generateProductHTML(product);
   productGridDiv.innerHTML += productHTML;
 });
