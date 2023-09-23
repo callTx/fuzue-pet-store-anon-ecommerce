@@ -15,6 +15,7 @@ const titleH2 = document.createElement("h2");
 titleH2.classList.add("title");
 titleH2.textContent = "Comprar produto";
 
+productMainDiv.appendChild(titleH2);
 
 // Iterate through products and generate HTML for each product
 function getParameterByName(name, url) {
@@ -90,7 +91,7 @@ function generateProductHTML(imgSrcProductName,showcaseTitle,showcaseDesc,price,
 }
 
 // Append the generated product grid to the main product grid div
-productMainDiv.appendChild(titleH2);
+
 productBoxDiv.appendChild(productMainDiv);
 
 containerDiv.appendChild(productBoxDiv);
