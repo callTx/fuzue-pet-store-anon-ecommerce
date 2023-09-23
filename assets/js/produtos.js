@@ -79,7 +79,7 @@ const products = [
     nameTitle: "Biscoito de Banana e Aveia",
     title: "Biscoito de Banana e Aveia The Bull",
     price: "R$ 25,00",
-    pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/petiscos_biscoito-de-banana-e-aveia.html"
+    pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=biscoito-de-banana-e-aveia.jpg?showcaseTitle=Biscoito de Banana e Aveia?showcaseDesc=Os BISCOITOS NATURAIS são alimentos funcionais preparados para mimar e recompensar o seu cão. Produzidos artesanalmente com ingredientes naturais, sem adição de trigo, conservantes artificiais, açucares, corantes, aromatizantes ou qualquer coisa prejudicial a saúde do seu animal. Para manter seus petiscos fresquinhos por mais tempo, você deve mante-lo em local fresco, seco e ao abrigo da luz solar. Após abrir, você pode armazenar em um pote com tampa ou na mesma embalagem bem fechada e, consumir preferencialmente em até 20 dias. Pode ser conservado em geladeira. Os petiscos estão em uma embalagem de ZIP LOCK, ela permite que você abra e feche os produtos sempre que necessário! Mas lembre-se que este produto não substitui a alimentação principal.?price=R$ 25,00?whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto Biscoito de Banana e Aveia."
   },
 ];
 
@@ -139,8 +139,8 @@ function generateProductHTML(product) {
         <a/>
       </div>
       <div class="showcase-content">
-        <a href="#" class="showcase-category">${product.nameTitle}</a>
-        <a href="#"><h3 class="showcase-title">${product.title}</h3></a>
+        <a href="${product.pageSrc}" class="showcase-category">${product.nameTitle}</a>
+        <a href="${product.pageSrc}"><h3 class="showcase-title">${product.title}</h3></a>
         <div class="showcase-rating">
           <ion-icon name="star"></ion-icon>
           <ion-icon name="star"></ion-icon>

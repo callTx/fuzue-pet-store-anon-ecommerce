@@ -13,10 +13,7 @@ productMainDiv.classList.add("product-main");
 
 const titleH2 = document.createElement("h2");
 titleH2.classList.add("title");
-titleH2.textContent = "Petiscos Naturais";
-
-const productGridDiv = document.createElement("div");
-productGridDiv.classList.add("product-grid");
+titleH2.textContent = "Comprar produto";
 
 
 // Iterate through products and generate HTML for each product
@@ -31,28 +28,69 @@ function getParameterByName(name, url) {
 }
 
 // Get the category parameter from the URL
-const category = getParameterByName('category');
-// console.log("Parametro recebido: ",category);
+const imgSrcProductName = getParameterByName('imgSrcProductName');
+const showcaseTitle = getParameterByName('showcaseTitle');
+const showcaseDesc = getParameterByName('showcaseDesc');
+const price = getParameterByName('price');
+const whatsappApiUrl = getParameterByName('whatsappApiUrl');
 
-//const category = document.getElementById('showcase').dataset.category;
+const productHTML = generateProductHTML(imgSrcProductName,showcaseTitle,showcaseDesc,price,whatsappApiUrl);
+productMainDiv.innerHTML += productHTML;
 
-const filteredProducts = products.filter(product => product.category === category);
 
-filteredProducts.forEach((product) => {
-  const productHTML = generateProductHTML(product);
-  productGridDiv.innerHTML += productHTML;
-});
-
-function generateProductHTML(product) {
+function generateProductHTML(imgSrcProductName,showcaseTitle,showcaseDesc,price,whatsappApiUrl) {
   return `
-    
+
+            <div class="product-featured">
+
+                <div class="showcase-container">
+
+                  <div class="showcase">
+                                    
+                    <div class="showcase-banner">
+                      <img src="./assets/images/products/${imgSrcProductName}" alt="shampoo, conditioner & facewash packs" class="showcase-img">
+                    </div>
+
+                    <div class="showcase-content">
+                      
+                      <div class="showcase-rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+
+                      <a href="#">
+                        <h3 class="showcase-title">${showcaseTitle}</h3>
+                      </a>
+
+                      <p class="showcase-desc">
+                        ${showcaseDesc}
+                      </p>
+
+                      <div class="price-box">
+                        <p class="price">${price}</p>
+                      </div>
+
+                      <a href="${whatsappApiUrl}" target="_blank">
+                        <button class="add-cart-btn" onclick="openWhatsApp()" style="display: flex; align-items: center;">
+                          <img src="./assets/images/icons/whatsapp-color-svgrepo-com.svg" alt="SVG Alt Text" width="32" height="32" style="margin-right: 10px;">
+                          Comprar
+                        </button>
+                      </a>
+                      
+
+                    </div>
+
+                  </div>
+                </div>
+            </div>
     `;
 }
 
 // Append the generated product grid to the main product grid div
 productMainDiv.appendChild(titleH2);
-productMainDiv.appendChild(productGridDiv);
-
 productBoxDiv.appendChild(productMainDiv);
 
 containerDiv.appendChild(productBoxDiv);
