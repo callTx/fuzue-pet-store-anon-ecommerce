@@ -81,14 +81,13 @@ const products = [
     parametros: "?imgSrcProductName=snack-de-buchino.jpg&showcaseTitle=Snack de Buchinho The Bull&showcaseDesc=Os petiscos desidratados são perfeitos para utilização durante os treinos e enriquecimento ambiental. Preparados com muito amor, a nossa linha de desidratados é produzida com um único ingrediente e 0% blá blá blá. Ou seja, sem adição de trigo, livre de qualquer conservante, açucares, corantes, aromatizantes e aditivos químicos. Para manter seus petiscos fresquinhos por mais tempo, você deve mante-lo em local fresco, seco e ao abrigo da luz solar. Após abrir, você pode armazenar em um pote com tampa ou na mesma embalagem bem fechada e, consumir preferencialmente em até 20 dias.&price=R$ 28,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Snack de Buchinho The Bull'."
   },
   {
-    category:"petiscos_naturais",
+    category:"petiscos_naturais1",
     imgSrc: "./assets/images/products/biscoito-de-banana-e-aveia.jpg",
     altText: "Biscoito de Banana e Aveia",
     nameTitle: "Biscoito de Banana e Aveia",
     title: "Biscoito de Banana e Aveia The Bull",
     price: "R$ 25,00",
-    pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html",
-    parametros: "?imgSrcProductName=biscoito-de-banana-e-aveia.jpg&showcaseTitle=Biscoito de Banana e Aveia The Bull&showcaseDesc=Os BISCOITOS NATURAIS são alimentos funcionais preparados para mimar e recompensar o seu cão. Produzidos artesanalmente com ingredientes naturais, sem adição de trigo, conservantes artificiais, açucares, corantes, aromatizantes ou qualquer coisa prejudicial a saúde do seu animal. Para manter seus petiscos fresquinhos por mais tempo, você deve mante-lo em local fresco, seco e ao abrigo da luz solar. Após abrir, você pode armazenar em um pote com tampa ou na mesma embalagem bem fechada e, consumir preferencialmente em até 20 dias. Pode ser conservado em geladeira. Os petiscos estão em uma embalagem de ZIP LOCK, ela permite que você abra e feche os produtos sempre que necessário! Mas lembre-se que este produto não substitui a alimentação principal.&price=R$ 25,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Biscoito de Banana e Aveia'."
+    pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=biscoito-de-banana-e-aveia.jpg&showcaseTitle=Biscoito de Banana e Aveia The Bull&showcaseDesc=Os BISCOITOS NATURAIS são alimentos funcionais preparados para mimar e recompensar o seu cão. Produzidos artesanalmente com ingredientes naturais, sem adição de trigo, conservantes artificiais, açucares, corantes, aromatizantes ou qualquer coisa prejudicial a saúde do seu animal. Para manter seus petiscos fresquinhos por mais tempo, você deve mante-lo em local fresco, seco e ao abrigo da luz solar. Após abrir, você pode armazenar em um pote com tampa ou na mesma embalagem bem fechada e, consumir preferencialmente em até 20 dias. Pode ser conservado em geladeira. Os petiscos estão em uma embalagem de ZIP LOCK, ela permite que você abra e feche os produtos sempre que necessário! Mas lembre-se que este produto não substitui a alimentação principal.&price=R$ 25,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Biscoito de Banana e Aveia'."
   },
 ];
 
@@ -133,9 +132,9 @@ const category = getParameterByName('category');
 const filteredProducts = products.filter(product => product.category === category);
 
 filteredProducts.forEach((product) => {
-  parametrosFormatados =  replaceSpacesWithPercent20(product.parametros);
-  console.log("parametrosFormatados: ",parametrosFormatados);
-  const productHTML = generateProductHTML(product,parametrosFormatados);
+  // parametrosFormatados =  replaceSpacesWithPercent20(product.parametros);
+  console.log("url: ",product.pageSrc);
+  const productHTML = generateProductHTML(product);
   productGridDiv.innerHTML += productHTML;
 });
 
@@ -144,20 +143,20 @@ function replaceSpacesWithPercent20(urlParameters) {
   return urlParameters.replace(/ /g, '%20');
 }
 
-function generateProductHTML(product, parametrosFormatados) {
+function generateProductHTML(product) {
   return `
     <div class="showcase">
       <div class="showcase-banner">
-        <a href="${product.pageSrc}${parametrosFormatados}">
+        <a href="${product.pageSrc}">
         <img src="${product.imgSrc}" alt="${product.altText}" width="300" class="product-img default">
         <a/>
-        <a href="${product.pageSrc}${parametrosFormatados}">
+        <a href="${product.pageSrc}">
         <img src="${product.imgSrc}" alt="${product.altText}" width="300" class="product-img hover">
         <a/>
       </div>
       <div class="showcase-content">
-        <a href="${product.pageSrc}${parametrosFormatados}" class="showcase-category">${product.nameTitle}</a>
-        <a href="${product.pageSrc}${parametrosFormatados}"><h3 class="showcase-title">${product.title}</h3></a>
+        <a href="${product.pageSrc}" class="showcase-category">${product.nameTitle}</a>
+        <a href="${product.pageSrc}"><h3 class="showcase-title">${product.title}</h3></a>
         <div class="showcase-rating">
           <ion-icon name="star"></ion-icon>
           <ion-icon name="star"></ion-icon>
