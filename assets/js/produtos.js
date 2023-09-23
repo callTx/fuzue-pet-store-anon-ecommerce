@@ -24,7 +24,7 @@ const products = [
     nameTitle: "Snack Filé Suíno",
     title: "Snack Filé Suíno The Bull",
     price: "R$ 30,00",
-    pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=Snack-file-suino.jpg&showcaseTitle=Snack Filé Suíno The Bull&showcaseDesc=O Snack de Filé Mignon Suíno The Bull é um petisco desidratado 100% natural, com um único ingrediente. Fabricado sem adição de farinha de trigo, livre de qualquer conservante, açucares, corantes, aromatizantes e aditivos químicos. É um item indispensável para ser utilizado como recompensa nos treinos dos pets e para enriquecimento ambiental. IMPORTANTE: Este produto não substitui a alimentação principal.&price=R$ 30,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Snack Filé Suíno The Bull'."
+    pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=Snack-file-suino.jpg&showcaseTitle=Snack Filé Suíno The Bull&showcaseDesc=O Snack de Filé Mignon Suíno The Bull é um petisco desidratado totalmente natural, com um único ingrediente. Fabricado sem adição de farinha de trigo, livre de qualquer conservante, açucares, corantes, aromatizantes e aditivos químicos. É um item indispensável para ser utilizado como recompensa nos treinos dos pets e para enriquecimento ambiental. IMPORTANTE: Este produto não substitui a alimentação principal.&price=R$ 30,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Snack Filé Suíno The Bull'."
   },
   
   {
@@ -52,7 +52,7 @@ const products = [
     nameTitle: "Snack de Fígado de Avestruz",
     title: "Snack de Fígado de Avestruz The Bull",
     price: "R$ 36,00",
-    pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=snack-figado-de-avestruz.jpg&showcaseTitle=Snack de Fígado de Avestruz The Bull&showcaseDesc=O Snack Fígado de Avestruz é um petisco desidratado 100% natural com um único ingregiente. A proteína exótica de Avestruz é excelente para cães alérgicos ou sensíveis as demais proteínas. Fabricado sem adição de farinha de trigo, livre de qualquer conservante, açucares, corantes, aromatizantes e aditivos químicos. É um item indispensável para ser utilizado como recompensa nos treinos dos pets e para enriquecimento ambiental. IMPORTANTE: Este produto não substitui a alimentação principal.&price=R$ 36,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Snack de Fígado de Avestruz The Bull'."
+    pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=snack-figado-de-avestruz.jpg&showcaseTitle=Snack de Fígado de Avestruz The Bull&showcaseDesc=O Snack Fígado de Avestruz é um petisco desidratado totalmente natural com um único ingregiente. A proteína exótica de Avestruz é excelente para cães alérgicos ou sensíveis as demais proteínas. Fabricado sem adição de farinha de trigo, livre de qualquer conservante, açucares, corantes, aromatizantes e aditivos químicos. É um item indispensável para ser utilizado como recompensa nos treinos dos pets e para enriquecimento ambiental. IMPORTANTE: Este produto não substitui a alimentação principal.&price=R$ 36,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Snack de Fígado de Avestruz The Bull'."
   },
   {
     category:"petiscos_naturais",
