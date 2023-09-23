@@ -81,15 +81,6 @@ const products = [
     price: "R$ 25,00",
     pageSrc: "#"
   },
-  {
-    category:"petiscos naturais teste",
-    imgSrc: "./assets/images/products/biscoito-de-banana-e-aveia.jpg",
-    altText: "Biscoito de Banana e Aveia teste",
-    nameTitle: "Biscoito de Banana e Aveia teste",
-    title: "Biscoito de Banana e Aveia The Bull teste",
-    price: "R$ 25,00",
-    pageSrc: "#"
-  },
 ];
 
 const productContainer = document.createElement("div");
@@ -113,7 +104,21 @@ productGridDiv.classList.add("product-grid");
 
 
 // Iterate through products and generate HTML for each product
-const category = document.getElementById('showcase').dataset.category;
+function getParameterByName(name, url) {
+  if (!url) url = window.location.href;
+  name = name.replace(/[\[\]]/g, '\\$&');
+  const regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)');
+  const results = regex.exec(url);
+  if (!results) return null;
+  if (!results[2]) return '';
+  return decodeURIComponent(results[2].replace(/\+/g, ' '));
+}
+
+// Get the category parameter from the URL
+const category = getParameterByName('category');
+console.log("Parametro recebido: ",category);
+
+//const category = document.getElementById('showcase').dataset.category;
 
 const filteredProducts = products.filter(product => product.category === category);
 
