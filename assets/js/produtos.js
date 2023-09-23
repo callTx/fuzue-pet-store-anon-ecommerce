@@ -6,7 +6,8 @@ const products = [
     nameTitle: "Petisco de Cenoura",
     title: "Petiscos Assados The Bull",
     price: "R$18,90",
-    pageSrc: "#"
+    pageSrc: "#",
+    parametros: "#"
   },
   {
     category:"petiscos_naturais",
@@ -15,7 +16,8 @@ const products = [
     nameTitle: "Snack de Frango",
     title: "Snack de Frango The Bull",
     price: "R$28,90",
-    pageSrc: "#"
+    pageSrc: "#",
+    parametros: "#"
   },
   {
     category:"petiscos_naturais",
@@ -24,7 +26,8 @@ const products = [
     nameTitle: "Snack Filé Suíno",
     title: "Snack Filé Suíno The Bull",
     price: "R$ 30,00",
-    pageSrc: "#"
+    pageSrc: "#",
+    parametros: "#"
   },
   
   {
@@ -34,7 +37,8 @@ const products = [
     nameTitle: "Snack de Frango",
     title: "Snack de Frango The Bull",
     price: "R$ 28,00",
-    pageSrc: "#"
+    pageSrc: "#",
+    parametros: "#"
   },
   {
     category:"petiscos_naturais",
@@ -43,7 +47,8 @@ const products = [
     nameTitle: "Snack de Fígado",
     title: "Snack de Fígado The Bull",
     price: "R$ 28,00",
-    pageSrc: "#"
+    pageSrc: "#",
+    parametros: "#"
   },
   {
     category:"petiscos_naturais",
@@ -52,7 +57,8 @@ const products = [
     nameTitle: "Snack de Fígado de Avestruz",
     title: "Snack de Fígado de Avestruz The Bull",
     price: "R$ 36,00",
-    pageSrc: "#"
+    pageSrc: "#",
+    parametros: "#"
   },
   {
     category:"petiscos_naturais",
@@ -61,7 +67,8 @@ const products = [
     nameTitle: "Snack de Manjuba",
     title: "Snack de Manjuba The Bull",
     price: "R$ 30,00",
-    pageSrc: "#"
+    pageSrc: "#",
+    parametros: "#"
   },
   {
     category:"petiscos_naturais",
@@ -70,7 +77,8 @@ const products = [
     nameTitle: "Snack de Buchinho",
     title: "Snack de Buchinho The Bull",
     price: "R$ 28,00",
-    pageSrc: "#"
+    pageSrc: "#",
+    parametros: "#"
   },
   {
     category:"petiscos_naturais",
