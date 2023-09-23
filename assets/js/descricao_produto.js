@@ -34,12 +34,20 @@ const showcaseTitle = getParameterByName('showcaseTitle');
 const showcaseDesc = getParameterByName('showcaseDesc');
 const price = getParameterByName('price');
 const whatsappApiUrl = getParameterByName('whatsappApiUrl');
+const whatsappApiUrlText = getParameterByName('text');
 
-const productHTML = generateProductHTML(imgSrcProductName,showcaseTitle,showcaseDesc,price,whatsappApiUrl);
+whatsappApiUrlFormatada = replacePercent20WithSpace(whatsappApiUrl);
+whatsappApiUrlTextFormatada = replacePercent20WithSpace(whatsappApiUrlText);
+
+const productHTML = generateProductHTML(imgSrcProductName,showcaseTitle,showcaseDesc,price,whatsappApiUrlFormatada,whatsappApiUrlTextFormatada);
 productMainDiv.innerHTML += productHTML;
 
+function replacePercent20WithSpace(inputString) {
+  return inputString.replace(/%20/g, ' ');
+}
 
-function generateProductHTML(imgSrcProductName,showcaseTitle,showcaseDesc,price,whatsappApiUrl) {
+
+function generateProductHTML(imgSrcProductName,showcaseTitle,showcaseDesc,price,whatsappApiUrl,whatsappApiUrlText) {
   return `
 
             <div class="product-featured">
@@ -74,7 +82,7 @@ function generateProductHTML(imgSrcProductName,showcaseTitle,showcaseDesc,price,
                         <p class="price">${price}</p>
                       </div>
 
-                      <a href="${whatsappApiUrl}" target="_blank">
+                      <a href="${whatsappApiUrl}&text=${whatsappApiUrlText}" target="_blank">
                         <button class="add-cart-btn" onclick="openWhatsApp()" style="display: flex; align-items: center;">
                           <img src="./assets/images/icons/whatsapp-color-svgrepo-com.svg" alt="SVG Alt Text" width="32" height="32" style="margin-right: 10px;">
                           Comprar
