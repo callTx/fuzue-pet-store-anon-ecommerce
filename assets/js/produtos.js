@@ -133,25 +133,30 @@ const category = getParameterByName('category');
 const filteredProducts = products.filter(product => product.category === category);
 
 filteredProducts.forEach((product) => {
-  const productHTML = generateProductHTML(product);
-  console.log("url: ",product.pageSrc+product.parametros);
+  parametrosFormatados =  replaceSpacesWithPercent20(product.parametros);
+  const productHTML = generateProductHTML(product,parametrosFormatados);
   productGridDiv.innerHTML += productHTML;
 });
 
-function generateProductHTML(product) {
+function replaceSpacesWithPercent20(urlParameters) {
+  // Replace each blank space with %20
+  return urlParameters.replace(/ /g, '%20');
+}
+
+function generateProductHTML(product, parametrosFormatados) {
   return `
     <div class="showcase">
       <div class="showcase-banner">
-        <a href="${product.pageSrc}${product.parametros}">
+        <a href="${product.pageSrc}${parametrosFormatados}">
         <img src="${product.imgSrc}" alt="${product.altText}" width="300" class="product-img default">
         <a/>
-        <a href="${product.pageSrc}${product.parametros}">
+        <a href="${product.pageSrc}${parametrosFormatados}">
         <img src="${product.imgSrc}" alt="${product.altText}" width="300" class="product-img hover">
         <a/>
       </div>
       <div class="showcase-content">
-        <a href="${product.pageSrc}${product.parametros}" class="showcase-category">${product.nameTitle}</a>
-        <a href="${product.pageSrc}${product.parametros}"><h3 class="showcase-title">${product.title}</h3></a>
+        <a href="${product.pageSrc}${parametrosFormatados}" class="showcase-category">${product.nameTitle}</a>
+        <a href="${product.pageSrc}${parametrosFormatados}"><h3 class="showcase-title">${product.title}</h3></a>
         <div class="showcase-rating">
           <ion-icon name="star"></ion-icon>
           <ion-icon name="star"></ion-icon>
