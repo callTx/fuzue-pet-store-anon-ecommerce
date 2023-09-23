@@ -39,16 +39,7 @@ productGridDiv.classList.add("product-grid");
 
 function generateProductHTML(product) {
   return `
-  <div class="product-container">
-
-      <div class="container">
-
-        <div class="product-box">
-          <div class="product-main">
-
-            <h2 class="title">Petiscos Naturais</h2>
-
-            <div class="product-grid">
+  
                 <div class="showcase">
                   <div class="showcase-banner">
                     <img src="${product.imgSrc}" alt="${product.altText}" width="300" class="product-img default">
@@ -69,11 +60,7 @@ function generateProductHTML(product) {
                     </div>
                   </div>
                 </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+            
     `;
 }
 
