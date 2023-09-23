@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fuzuê Pet Store</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo/favicon.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style-prefix.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+
+
+  <div class="overlay" data-overlay></div>
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+  <!--
+    - HEADER
+  -->
+
+  <header>
+
+
+    <div class="header-main">
+
+      <div class="container">
+
+        <a href="https://fuzue-pet-store-anon-ecommerce.vercel.app/" class="header-logo">
+          <img src="./assets/images/logo/logo.png" alt="Fuzuê logo" width="120" height="36">
+        </a>
+
+        <div class="header-search-container">
+
+          <input type="search" name="search" class="search-field" placeholder="Busque o nome do seu produto...">
+
+          <button class="search-btn">
+            <ion-icon name="search-outline"></ion-icon>
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <nav class="desktop-navigation-menu">
+
+      <div class="container">
+
+        <ul class="desktop-menu-category-list">
+          
+          <li class="menu-category">
+            <div class="menu-title" style="display: flex; align-items: center;">
+              <img src="./assets/images/icons/canned-pet-food-svgrepo-com.svg" alt="dress & frock" width="30" style="margin-right: 10px;">
+              <a href="#" class="menu-title" style="color: rgb(49, 49, 49)">Alimento Úmido</a>
+            </div>
+          </li>
+
+
+          <li class="menu-category">
+            <div class="menu-title" style="display: flex; align-items: center;">
+              <img src="./assets/images/icons/dry-dog-food-svgrepo-com.svg" alt="dress & frock" width="30" style="margin-right: 10px;">
+              <a href="https://fuzue-pet-store-anon-ecommerce.vercel.app/petiscos.html" class="menu-title" style="color: rgb(49, 49, 49)">Petiscos Naturais</a>
+            </div>
+          </li>
+
+
+          <li class="menu-category">
+            <div class="menu-title" style="display: flex; align-items: center;">
+              <img src="./assets/images/icons/dog-dish-svgrepo-com.svg" alt="dress & frock" width="30" style="margin-right: 10px;">
+              <a href="#" class="menu-title" style="color: rgb(49, 49, 49)">Comedouros</a>
+            </div>
+          </li>
+
+          <li class="menu-category">
+            <div class="menu-title" style="display: flex; align-items: center;">
+              <img src="./assets/images/icons/yoga-mat-svgrepo-com.svg" alt="dress & frock" width="30" style="margin-right: 10px;">
+              <a href="#" class="menu-title" style="color: rgb(49, 49, 49)">Tapetes para Alimentação</a>
+            </div>
+          </li>
+
+          <li class="menu-category">
+            <div class="menu-title" style="display: flex; align-items: center;">
+              <img src="./assets/images/icons/dog-bone-svgrepo-com.svg" alt="dress & frock" width="30" style="margin-right: 10px;">
+              <a href="#" class="menu-title" style="color: rgb(49, 49, 49)">Brinquedos & Mordedores</a>
+            </div>
+          </li>
+
+          <li class="menu-category">
+            <div class="menu-title" style="display: flex; align-items: center;">
+              <img src="./assets/images/icons/bear-svgrepo-com.svg" alt="dress & frock" width="30" style="margin-right: 10px;">
+              <a href="#" class="menu-title" style="color: rgb(49, 49, 49)">Pelúcias</a>
+            </div>
+          </li>
+
+          <li class="menu-category">
+            <div class="menu-title" style="display: flex; align-items: center;">
+              <img src="./assets/images/icons/bottle-svgrepo-com.svg" alt="dress & frock" width="30" style="margin-right: 10px;">
+              <a href="#" class="menu-title" style="color: rgb(49, 49, 49)">Kongs</a>
+            </div>
+          </li>
+
+          <li class="menu-category">
+            <div class="menu-title" style="display: flex; align-items: center;">
+              <img src="./assets/images/icons/menu-dots-svgrepo-com.svg" alt="dress & frock" width="30" style="margin-right: 10px;">
+              <a href="#" class="menu-title" style="color: rgb(49, 49, 49)">Outros</a>
+            </div>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </nav>
+
+    <div class="mobile-bottom-navigation">
+
+      <button class="action-btn" data-mobile-menu-open-btn>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+
+
+      <button class="action-btn">
+        <ion-icon name="home-outline"></ion-icon>
+      </button>
+
+    </div>
+
+    <nav class="mobile-navigation-menu  has-scrollbar" data-mobile-menu>
+
+      <div class="menu-top">
+        <h2 class="menu-title">Menu</h2>
+
+        <button class="menu-close-btn" data-mobile-menu-close-btn>
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+      </div>
+
+      <ul class="mobile-menu-category-list">
+
+        <li class="menu-category">
+          <div class="menu-title" style="display: flex; align-items: center;">
+            <img src="./assets/images/icons/canned-pet-food-svgrepo-com.svg" alt="dress & frock" width="30" style="margin-right: 10px;">
+            <a href="#" class="menu-title" style="color: rgb(49, 49, 49)">Alimento Úmido</a>
+          </div>
+        </li>
+
+        <li class="menu-category">
+          <div class="menu-title" style="display: flex; align-items: center;">
+            <img src="./assets/images/icons/dry-dog-food-svgrepo-com.svg" alt="dress & frock" width="30" style="margin-right: 10px;">
+            <a href="https://fuzue-pet-store-anon-ecommerce.vercel.app/petiscos.html" class="menu-title" style="color: rgb(49, 49, 49)">Petiscos Naturais</a>
+          </div>
+        </li>
+
+        <li class="menu-category">
+          <div class="menu-title" style="display: flex; align-items: center;">
+            <img src="./assets/images/icons/dog-dish-svgrepo-com.svg" alt="dress & frock" width="30" style="margin-right: 10px;">
+            <a href="#" class="menu-title" style="color: rgb(49, 49, 49)">Comedouros</a>
+          </div>
+        </li>
+
+        <li class="menu-category">
+          <div class="menu-title" style="display: flex; align-items: center;">
+            <img src="./assets/images/icons/yoga-mat-svgrepo-com.svg" alt="dress & frock" width="30" style="margin-right: 10px;">
+            <a href="#" class="menu-title" style="color: rgb(49, 49, 49)">Tapetes para Alimentação</a>
+          </div>
+        </li>
+
+        <li class="menu-category">
+          <div class="menu-title" style="display: flex; align-items: center;">
+            <img src="./assets/images/icons/dog-bone-svgrepo-com.svg" alt="dress & frock" width="30" style="margin-right: 10px;">
+            <a href="#" class="menu-title" style="color: rgb(49, 49, 49)">Brinquedos & Mordedores</a>
+          </div>
+        </li>
+
+        <li class="menu-category">
+          <div class="menu-title" style="display: flex; align-items: center;">
+            <img src="./assets/images/icons/bear-svgrepo-com.svg" alt="dress & frock" width="30" style="margin-right: 10px;">
+            <a href="#" class="menu-title" style="color: rgb(49, 49, 49)">Pelúcias</a>
+          </div>
+        </li>
+
+        <li class="menu-category">
+          <div class="menu-title" style="display: flex; align-items: center;">
+            <img src="./assets/images/icons/bottle-svgrepo-com.svg" alt="dress & frock" width="30" style="margin-right: 10px;">
+            <a href="#" class="menu-title" style="color: rgb(49, 49, 49)">Kongs</a>
+          </div>
+        </li>
+
+        <li class="menu-category">
+          <div class="menu-title" style="display: flex; align-items: center;">
+            <img src="./assets/images/icons/menu-dots-svgrepo-com.svg" alt="dress & frock" width="30" style="margin-right: 10px;">
+            <a href="#" class="menu-title" style="color: rgb(49, 49, 49)">Outros</a>
+          </div>
+        </li>
+
+      </ul>
+
+      <div class="menu-bottom">
+
+        <ul class="menu-social-container">
+
+          <!-- <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li> -->
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <!-- <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li> -->
+
+        </ul>
+
+      </div>
+
+    </nav>
+
+  </header>
+
+
+
+
+
+  <!--
+    - MAIN
+  -->
+
+  <main>
+
+    <!--
+      - PRODUCT
+    -->
+
+    <div class="product-container">
+
+      <div class="container">
+
+        <div class="product-box">
+          <div class="product-main">
+
+            <h2 class="title">Fazer Pedido</h2>
+
+            <div class="product-featured">
+
+                <div class="showcase-container">
+
+                  <div class="showcase">
+                    
+                    <div class="showcase-banner">
+                      <img src="./assets/images/products/Snack-file-suino.jpg" alt="shampoo, conditioner & facewash packs" class="showcase-img">
+                    </div>
+
+                    <div class="showcase-content">
+                      
+                      <div class="showcase-rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+
+                      <a href="#">
+                        <h3 class="showcase-title">Snack de Filé Suíno</h3>
+                      </a>
+
+                      <p class="showcase-desc">
+                        O Snack de Filé Suíno The Bull é um petisco desidratado 100% natural, com um único ingrediente e 0% blá blá blá. Fabricado sem adição de farinha de trigo, livre de qualquer conservante, açucares, corantes, aromatizantes e aditivos químicos. É um item indispensável para ser utilizado como recompensa nos treinos dos pets e para enriquecimento ambiental.
+                      </p>
+
+                      <div class="price-box">
+                        <p class="price">R$ 30,00</p>
+                      </div>
+
+                      <button class="add-cart-btn" onclick="openWhatsApp()" style="display: flex; align-items: center;">
+                        <img src="./assets/images/icons/whatsapp-color-svgrepo-com.svg" alt="SVG Alt Text" width="32" height="32" style="margin-right: 10px;">
+                        Comprar
+                      </button>
+                    
+                      <script>
+                        function openWhatsApp() {
+                          // Phone number (replace with your desired phone number)
+                          const phoneNumber = '+559184093870';
+                    
+                          // Product name (replace with the appropriate product name)
+                          const productName = 'Snack de Filé Suíno';
+                    
+                          // Message text
+                          const message = `Olá! Gostaria de comprar o produto "${productName}".`;
+                    
+                          // Encode the message and create the WhatsApp link
+                          const encodedMessage = encodeURIComponent(message);
+                          const whatsappLink = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodedMessage}`;
+                    
+                          // Open the link in a new tab
+                          window.open(whatsappLink, '_blank', 'noopener noreferrer');
+                        }
+                      </script>
+                      
+
+                      <!-- <div class="showcase-status">
+                        <div class="wrapper">
+                          <p>
+                            already sold: <b>20</b>
+                          </p>
+
+                          <p>
+                            available: <b>40</b>
+                          </p>
+                        </div>
+
+                        <div class="showcase-status-bar"></div>
+                      </div>
+
+                      <div class="countdown-box">
+
+                        <p class="countdown-desc">
+                          Hurry Up! Offer ends in:
+                        </p>
+
+                        <div class="countdown">
+
+                          <div class="countdown-content">
+
+                            <p class="display-number">360</p>
+
+                            <p class="display-text">Days</p>
+
+                          </div>
+
+                          <div class="countdown-content">
+                            <p class="display-number">24</p>
+                            <p class="display-text">Hours</p>
+                          </div>
+
+                          <div class="countdown-content">
+                            <p class="display-number">59</p>
+                            <p class="display-text">Min</p>
+                          </div>
+
+                          <div class="countdown-content">
+                            <p class="display-number">00</p>
+                            <p class="display-text">Sec</p>
+                          </div>
+
+                        </div>
+
+                      </div> -->
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </main>
+
+
+
+
+
+  <!--
+    - FOOTER
+  -->
+
+  <footer>
+
+
+    <div class="footer-nav">
+
+      <div class="container">
+
+        <ul class="footer-nav-list">
+
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Contato</h2>
+          </li>
+
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="call-outline"></ion-icon>
+            </div>
+
+            <a href="tel:+607936-8058" class="footer-nav-link">+55 91 8409-3870</a>
+          </li> 
+
+        </ul>
+
+        <ul class="footer-nav-list">
+
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Siga-nos no Instagram</h2>
+          </li>
+
+          <li>
+            <ul class="social-link">
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+
+            </ul>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+      <div class="container">
+
+        <img src="./assets/images/payment-pix.png" alt="payment method" class="payment-img">
+
+        <p class="copyright">
+          Copyright &copy; <a href="#"> 2023. Fuzuê Pet Store</a>. Todos os direitos reservados.
+        </p>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
