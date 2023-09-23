@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fuzuê Pet Store</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo/favicon.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style-prefix.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+
+
+  <div class="overlay" data-overlay></div>
+
+
+  <!--
+    - HEADER
+  -->
+
+  <header>
+
+
+    <div class="header-main">
+
+      <div class="container">
+
+        <a href="https://fuzue-pet-store-anon-ecommerce.vercel.app/" class="header-logo">
+          <img src="./assets/images/logo/logo.png" alt="Fuzuê logo" width="120" height="36">
+        </a>
+
+        <div class="header-search-container">
+
+          <input type="search" name="search" class="search-field" placeholder="Busque o nome do seu produto...">
+
+          <button class="search-btn">
+            <ion-icon name="search-outline"></ion-icon>
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <nav class="desktop-navigation-menu">
+
+      <div class="container">
+
+        <ul class="desktop-menu-category-list">
+          
+          <li class="menu-category">
+            <div class="menu-title" style="display: flex; align-items: center;">
+              <img src="./assets/images/icons/canned-pet-food-svgrepo-com.svg" alt="dress & frock" width="30" style="margin-right: 10px;">
+              <a href="#" class="menu-title" style="color: rgb(49, 49, 49)">Alimento Úmido</a>
+            </div>
+          </li>
+
+
+          <li class="menu-category">
+            <div class="menu-title" style="display: flex; align-items: center;">
+              <img src="./assets/images/icons/dry-dog-food-svgrepo-com.svg" alt="dress & frock" width="30" style="margin-right: 10px;">
+              <a href="https://fuzue-pet-store-anon-ecommerce.vercel.app/petiscos.html" class="menu-title" style="color: rgb(49, 49, 49)">Petiscos Naturais</a>
+            </div>
+          </li>
+
+
+          <li class="menu-category">
+            <div class="menu-title" style="display: flex; align-items: center;">
+              <img src="./assets/images/icons/dog-dish-svgrepo-com.svg" alt="dress & frock" width="30" style="margin-right: 10px;">
+              <a href="#" class="menu-title" style="color: rgb(49, 49, 49)">Comedouros</a>
+            </div>
+          </li>
+
+          <li class="menu-category">
+            <div class="menu-title" style="display: flex; align-items: center;">
+              <img src="./assets/images/icons/yoga-mat-svgrepo-com.svg" alt="dress & frock" width="30" style="margin-right: 10px;">
+              <a href="#" class="menu-title" style="color: rgb(49, 49, 49)">Tapetes para Alimentação</a>
+            </div>
+          </li>
+
+          <li class="menu-category">
+            <div class="menu-title" style="display: flex; align-items: center;">
+              <img src="./assets/images/icons/dog-bone-svgrepo-com.svg" alt="dress & frock" width="30" style="margin-right: 10px;">
+              <a href="#" class="menu-title" style="color: rgb(49, 49, 49)">Brinquedos & Mordedores</a>
+            </div>
+          </li>
+
+          <li class="menu-category">
+            <div class="menu-title" style="display: flex; align-items: center;">
+              <img src="./assets/images/icons/bear-svgrepo-com.svg" alt="dress & frock" width="30" style="margin-right: 10px;">
+              <a href="#" class="menu-title" style="color: rgb(49, 49, 49)">Pelúcias</a>
+            </div>
+          </li>
+
+          <li class="menu-category">
+            <div class="menu-title" style="display: flex; align-items: center;">
+              <img src="./assets/images/icons/bottle-svgrepo-com.svg" alt="dress & frock" width="30" style="margin-right: 10px;">
+              <a href="#" class="menu-title" style="color: rgb(49, 49, 49)">Kongs</a>
+            </div>
+          </li>
+
+          <li class="menu-category">
+            <div class="menu-title" style="display: flex; align-items: center;">
+              <img src="./assets/images/icons/menu-dots-svgrepo-com.svg" alt="dress & frock" width="30" style="margin-right: 10px;">
+              <a href="#" class="menu-title" style="color: rgb(49, 49, 49)">Outros</a>
+            </div>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </nav>
+
+    <div class="mobile-bottom-navigation">
+
+      <button class="action-btn" data-mobile-menu-open-btn>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+
+
+      <button class="action-btn">
+        <ion-icon name="home-outline"></ion-icon>
+      </button>
+
+    </div>
+
+    <nav class="mobile-navigation-menu  has-scrollbar" data-mobile-menu>
+
+      <div class="menu-top">
+        <h2 class="menu-title">Menu</h2>
+
+        <button class="menu-close-btn" data-mobile-menu-close-btn>
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+      </div>
+
+      <ul class="mobile-menu-category-list">
+
+        <li class="menu-category">
+          <div class="menu-title" style="display: flex; align-items: center;">
+            <img src="./assets/images/icons/canned-pet-food-svgrepo-com.svg" alt="dress & frock" width="30" style="margin-right: 10px;">
+            <a href="#" class="menu-title" style="color: rgb(49, 49, 49)">Alimento Úmido</a>
+          </div>
+        </li>
+
+        <li class="menu-category">
+          <div class="menu-title" style="display: flex; align-items: center;">
+            <img src="./assets/images/icons/dry-dog-food-svgrepo-com.svg" alt="dress & frock" width="30" style="margin-right: 10px;">
+            <a href="https://fuzue-pet-store-anon-ecommerce.vercel.app/petiscos.html" class="menu-title" style="color: rgb(49, 49, 49)">Petiscos Naturais</a>
+          </div>
+        </li>
+
+        <li class="menu-category">
+          <div class="menu-title" style="display: flex; align-items: center;">
+            <img src="./assets/images/icons/dog-dish-svgrepo-com.svg" alt="dress & frock" width="30" style="margin-right: 10px;">
+            <a href="#" class="menu-title" style="color: rgb(49, 49, 49)">Comedouros</a>
+          </div>
+        </li>
+
+        <li class="menu-category">
+          <div class="menu-title" style="display: flex; align-items: center;">
+            <img src="./assets/images/icons/yoga-mat-svgrepo-com.svg" alt="dress & frock" width="30" style="margin-right: 10px;">
+            <a href="#" class="menu-title" style="color: rgb(49, 49, 49)">Tapetes para Alimentação</a>
+          </div>
+        </li>
+
+        <li class="menu-category">
+          <div class="menu-title" style="display: flex; align-items: center;">
+            <img src="./assets/images/icons/dog-bone-svgrepo-com.svg" alt="dress & frock" width="30" style="margin-right: 10px;">
+            <a href="#" class="menu-title" style="color: rgb(49, 49, 49)">Brinquedos & Mordedores</a>
+          </div>
+        </li>
+
+        <li class="menu-category">
+          <div class="menu-title" style="display: flex; align-items: center;">
+            <img src="./assets/images/icons/bear-svgrepo-com.svg" alt="dress & frock" width="30" style="margin-right: 10px;">
+            <a href="#" class="menu-title" style="color: rgb(49, 49, 49)">Pelúcias</a>
+          </div>
+        </li>
+
+        <li class="menu-category">
+          <div class="menu-title" style="display: flex; align-items: center;">
+            <img src="./assets/images/icons/bottle-svgrepo-com.svg" alt="dress & frock" width="30" style="margin-right: 10px;">
+            <a href="#" class="menu-title" style="color: rgb(49, 49, 49)">Kongs</a>
+          </div>
+        </li>
+
+        <li class="menu-category">
+          <div class="menu-title" style="display: flex; align-items: center;">
+            <img src="./assets/images/icons/menu-dots-svgrepo-com.svg" alt="dress & frock" width="30" style="margin-right: 10px;">
+            <a href="#" class="menu-title" style="color: rgb(49, 49, 49)">Outros</a>
+          </div>
+        </li>
+
+      </ul>
+
+      <div class="menu-bottom">
+
+        <ul class="menu-social-container">
+
+          <!-- <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li> -->
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <!-- <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li> -->
+
+        </ul>
+
+      </div>
+
+    </nav>
+
+  </header>
+
+
+
+
+
+  <!--
+    - MAIN
+  -->
+
+  <main>
+
+    <!--
+      - PRODUCT
+    -->
+
+    <div class="product-container">
+
+      <div class="container">
+
+        <div class="product-box">
+          <div class="product-main">
+
+            <h2 class="title">Petiscos Naturais</h2>
+
+            <div class="product-grid">
+
+              <div id="productShowcase"></div>
+
+              <script>
+                // Sample product data in JSON format
+                const products = [
+                  {
+                    imgSrcDefault: './assets/images/products/petisco-de-cenoura.jpg',
+                    imgSrcHover: './assets/images/products/petisco-de-cenoura.jpg',
+                    category: 'Petisco de Cenoura',
+                    title: 'Petiscos Assados The Bull',
+                    price: 'R$25,00'
+                  },
+                  // Add more products as needed
+                ];
+
+                // Function to create product showcase elements
+                function createProductShowcase(product) {
+                  const showcaseDiv = document.createElement('div');
+                  showcaseDiv.className = 'showcase';
+
+                  const bannerDiv = document.createElement('div');
+                  bannerDiv.className = 'showcase-banner';
+
+                  const aLink = document.createElement('a');
+                  aLink.href = '#'; // Replace with the appropriate link
+                  aLink.target = '_blank';
+                  
+                  const imgDefault = document.createElement('img');
+                  imgDefault.src = product.imgSrcDefault;
+                  imgDefault.alt = 'Product Image';
+                  imgDefault.width = 300;
+                  imgDefault.className = 'product-img default';
+                  aLink.appendChild(imgDefault);
+
+                  const imgHover = document.createElement('img');
+                  imgHover.src = product.imgSrcHover;
+                  imgHover.alt = 'Product Image';
+                  imgHover.width = 300;
+                  imgHover.className = 'product-img hover';
+                  aLink.appendChild(imgHover);
+
+                  bannerDiv.appendChild(aLink);
+
+                  const contentDiv = document.createElement('div');
+                  contentDiv.className = 'showcase-content';
+
+                  const categoryLink = document.createElement('a');
+                  categoryLink.href = '#'; // Replace with the appropriate link
+                  categoryLink.textContent = product.category;
+                  contentDiv.appendChild(categoryLink);
+
+                  const titleLink = document.createElement('a');
+                  titleLink.href = '#'; // Replace with the appropriate link
+                  const titleHeading = document.createElement('h3');
+                  titleHeading.className = 'showcase-title';
+                  titleHeading.textContent = product.title;
+                  titleLink.appendChild(titleHeading);
+                  contentDiv.appendChild(titleLink);
+
+                  const priceDiv = document.createElement('div');
+                  priceDiv.className = 'price-box';
+                  const pricePara = document.createElement('p');
+                  pricePara.className = 'price';
+                  pricePara.textContent = product.price;
+                  priceDiv.appendChild(pricePara);
+                  contentDiv.appendChild(priceDiv);
+
+                  showcaseDiv.appendChild(bannerDiv);
+                  showcaseDiv.appendChild(contentDiv);
+
+                  return showcaseDiv;
+                }
+
+                // Create and display product showcases
+                const productShowcaseContainer = document.getElementById('productShowcase');
+                products.forEach(product => {
+                  const productShowcase = createProductShowcase(product);
+                  productShowcaseContainer.appendChild(productShowcase);
+                });
+              </script>
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </main>
+
+
+
+
+
+  <!--
+    - FOOTER
+  -->
+
+  <footer>
+
+
+    <div class="footer-nav">
+
+      <div class="container">
+
+        <ul class="footer-nav-list">
+
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Contato</h2>
+          </li>
+
+          <li class="footer-nav-item flex">
+            <div class="icon-box">
+              <ion-icon name="call-outline"></ion-icon>
+            </div>
+
+            <a href="tel:+607936-8058" class="footer-nav-link">+55 91 8409-3870</a>
+          </li> 
+
+        </ul>
+
+        <ul class="footer-nav-list">
+
+          <li class="footer-nav-item">
+            <h2 class="nav-title">Siga-nos no Instagram</h2>
+          </li>
+
+          <li>
+            <ul class="social-link">
+
+              <li class="footer-nav-item">
+                <a href="#" class="footer-nav-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+
+            </ul>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+      <div class="container">
+
+        <img src="./assets/images/payment-pix.png" alt="payment method" class="payment-img">
+
+        <p class="copyright">
+          Copyright &copy; <a href="#"> 2023. Fuzuê Pet Store</a>. Todos os direitos reservados.
+        </p>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
