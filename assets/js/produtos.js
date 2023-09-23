@@ -1,73 +1,82 @@
 const products = [
   {
+    category:"petiscos naturais",
     imgSrc: "./assets/images/products/petisco-de-cenoura.jpg",
     altText: "Petisco de Cenoura",
-    category: "Petisco de Cenoura",
+    nameTitle: "Petisco de Cenoura",
     title: "Petiscos Assados The Bull",
     price: "R$18,90",
     pageSrc: "#"
   },
   {
+    category:"petiscos naturais",
     imgSrc: "./assets/images/products/snack-de-frango.jpg",
     altText: "Snack de Frango",
-    category: "Snack de Frango",
+    nameTitle: "Snack de Frango",
     title: "Snack de Frango The Bull",
     price: "R$28,90",
     pageSrc: "#"
   },
   {
+    category:"petiscos naturais",
     imgSrc: "./assets/images/products/Snack-file-suino.jpg",
     altText: "Snack Filé Suíno",
-    category: "Snack Filé Suíno",
+    nameTitle: "Snack Filé Suíno",
     title: "Snack Filé Suíno The Bull",
     price: "R$ 30,00",
     pageSrc: "#"
   },
   
   {
+    category:"petiscos naturais",
     imgSrc: "./assets/images/products/snack-de-frango.jpg",
     altText: "Snack de Frango",
-    category: "Snack de Frango",
+    nameTitle: "Snack de Frango",
     title: "Snack de Frango The Bull",
     price: "R$ 28,00",
     pageSrc: "#"
   },
   {
+    category:"petiscos naturais",
     imgSrc: "./assets/images/products/snack-de-figado.jpg",
     altText: "Snack de Fígado",
-    category: "Snack de Fígado",
+    nameTitle: "Snack de Fígado",
     title: "Snack de Fígado The Bull",
     price: "R$ 28,00",
     pageSrc: "#"
   },
   {
+    category:"petiscos naturais",
     imgSrc: "./assets/images/products/snack-figado-de-avestruz.jpg",
     altText: "Snack de Fígado de Avestruz",
-    category: "Snack de Fígado de Avestruz",
+    nameTitle: "Snack de Fígado de Avestruz",
     title: "Snack de Fígado de Avestruz The Bull",
     price: "R$ 36,00",
     pageSrc: "#"
   },
   {
+    category:"petiscos naturais",
     imgSrc: "./assets/images/products/snack-de-manjuba.jpg",
     altText: "Snack de Manjuba",
-    category: "Snack de Manjuba",
+    nameTitle: "Snack de Manjuba",
     title: "Snack de Manjuba The Bull",
     price: "R$ 30,00",
     pageSrc: "#"
   },
   {
+    category:"petiscos naturais",
     imgSrc: "./assets/images/products/snack-de-buchino.jpg",
     altText: "Snack de Buchinho",
-    category: "Snack de Buchinho",
+    nameTitle: "Snack de Buchinho",
     title: "Snack de Buchinho The Bull",
     price: "R$ 28,00",
     pageSrc: "#"
   },
   {
+    category:"petiscos naturais",
     imgSrc: "./assets/images/products/biscoito-de-banana-e-aveia.jpg",
     altText: "Biscoito de Banana e Aveia",
-    category: "Biscoito de Banana e Aveia",
+    nameTitle: "Biscoito de Banana e Aveia",
     title: "Biscoito de Banana e Aveia The Bull",
     price: "R$ 25,00",
     pageSrc: "#"
@@ -111,7 +120,7 @@ function generateProductHTML(product) {
         <a/>
       </div>
       <div class="showcase-content">
-        <a href="#" class="showcase-category">${product.category}</a>
+        <a href="#" class="showcase-category">${product.nameTitle}</a>
         <a href="#"><h3 class="showcase-title">${product.title}</h3></a>
         <div class="showcase-rating">
           <ion-icon name="star"></ion-icon>
