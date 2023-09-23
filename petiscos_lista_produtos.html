@@ -275,7 +275,7 @@
 
             <h2 class="title">Petiscos Naturais</h2>
 
-            <div class="product-grid">
+            
 
               <div id="productShowcase"></div>
 
@@ -305,7 +305,7 @@
                   link.rel = 'stylesheet';
                   link.href = './assets/css/style-prefix.css';
                   document.head.appendChild(link);
-                  
+
                   const showcaseDiv = document.createElement('div');
                   showcaseDiv.className = 'showcase';
 
@@ -315,6 +315,8 @@
                   const aLink = document.createElement('a');
                   aLink.href = '#'; // Replace with the appropriate link
                   aLink.target = '_blank';
+
+                  
                   
                   const imgDefault = document.createElement('img');
                   imgDefault.src = product.imgSrcDefault;
@@ -358,7 +360,6 @@
 
                   showcaseDiv.appendChild(bannerDiv);
                   showcaseDiv.appendChild(contentDiv);
-
                   return showcaseDiv;
                 }
 
@@ -368,9 +369,13 @@
                   const productShowcase = createProductShowcase(product);
                   productShowcaseContainer.appendChild(productShowcase);
                 });
+
+                const productGridDiv = document.createElement('div');
+                productGridDiv.className = 'product-grid';
+                productGridDiv.appendChild(productShowcaseContainer);
               </script>
 
-            </div>
+            
 
           </div>
         </div>
