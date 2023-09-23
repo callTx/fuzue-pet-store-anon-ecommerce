@@ -262,127 +262,40 @@
 
   <main>
 
-    <!--
-      - PRODUCT
-    -->
-
     <div class="product-container">
-
       <div class="container">
-
         <div class="product-box">
           <div class="product-main">
-
             <h2 class="title">Petiscos Naturais</h2>
-
-            
-
-              <div id="productShowcase"></div>
-
-              <script>
-                // Sample product data in JSON format
-                const products = [
-                  {
-                    imgSrcDefault: './assets/images/products/petisco-de-cenoura.jpg',
-                    imgSrcHover: './assets/images/products/petisco-de-cenoura.jpg',
-                    category: 'Petisco de Cenoura',
-                    title: 'Petiscos Assados The Bull',
-                    price: 'R$25,00'
-                  },
-                  {
-                    imgSrcDefault: './assets/images/products/petisco-de-cenoura.jpg',
-                    imgSrcHover: './assets/images/products/petisco-de-cenoura.jpg',
-                    category: 'Petisco de Cenoura',
-                    title: 'Petiscos Assados The Bull',
-                    price: 'R$25,00'
-                  },
-                  // Add more products as needed
-                ];
-
-                // Function to create product showcase elements
-                function createProductShowcase(product) {
-                  const link = document.createElement('link');
-                  link.rel = 'stylesheet';
-                  link.href = './assets/css/style-prefix.css';
-                  document.head.appendChild(link);
-
-                  const showcaseDiv = document.createElement('div');
-                  showcaseDiv.className = 'showcase';
-
-                  const bannerDiv = document.createElement('div');
-                  bannerDiv.className = 'showcase-banner';
-
-                  const aLink = document.createElement('a');
-                  aLink.href = '#'; // Replace with the appropriate link
-                  aLink.target = '_blank';
-
-                  
-                  
-                  const imgDefault = document.createElement('img');
-                  imgDefault.src = product.imgSrcDefault;
-                  imgDefault.alt = 'Product Image';
-                  imgDefault.width = 300;
-                  imgDefault.className = 'product-img default';
-                  aLink.appendChild(imgDefault);
-
-                  const imgHover = document.createElement('img');
-                  imgHover.src = product.imgSrcHover;
-                  imgHover.alt = 'Product Image';
-                  imgHover.width = 300;
-                  imgHover.className = 'product-img hover';
-                  aLink.appendChild(imgHover);
-
-                  bannerDiv.appendChild(aLink);
-
-                  const contentDiv = document.createElement('div');
-                  contentDiv.className = 'showcase-content';
-
-                  const categoryLink = document.createElement('a');
-                  categoryLink.href = '#'; // Replace with the appropriate link
-                  categoryLink.textContent = product.category;
-                  contentDiv.appendChild(categoryLink);
-
-                  const titleLink = document.createElement('a');
-                  titleLink.href = '#'; // Replace with the appropriate link
-                  const titleHeading = document.createElement('h3');
-                  titleHeading.className = 'showcase-title';
-                  titleHeading.textContent = product.title;
-                  titleLink.appendChild(titleHeading);
-                  contentDiv.appendChild(titleLink);
-
-                  const priceDiv = document.createElement('div');
-                  priceDiv.className = 'price-box';
-                  const pricePara = document.createElement('p');
-                  pricePara.className = 'price';
-                  pricePara.textContent = product.price;
-                  priceDiv.appendChild(pricePara);
-                  contentDiv.appendChild(priceDiv);
-
-                  showcaseDiv.appendChild(bannerDiv);
-                  showcaseDiv.appendChild(contentDiv);
-                  return showcaseDiv;
-                }
-
-                // Create and display product showcases
-                const productShowcaseContainer = document.getElementById('productShowcase');
-                products.forEach(product => {
-                  const productShowcase = createProductShowcase(product);
-                  productShowcaseContainer.appendChild(productShowcase);
-                });
-
-                const productGridDiv = document.createElement('div');
-                productGridDiv.className = 'product-grid';
-                productGridDiv.appendChild(productShowcaseContainer);
-              </script>
-
-            
-
+            <div class="product-grid">
+              <!-- Loop through each product -->
+              ${products.map(product => `
+                <div class="showcase">
+                  <div class="showcase-banner">
+                    <a href="https://fuzue-pet-store-anon-ecommerce.vercel.app/petiscos_petisco-de-cenoura.html">
+                      <img src="${product.imageSrc}" alt="${product.altText}" width="300" class="product-img default">
+                      <img src="${product.imageSrc}" alt="${product.altText}" width="300" class="product-img hover">
+                    </a>
+                  </div>
+                  <div class="showcase-content">
+                    <a href="https://fuzue-pet-store-anon-ecommerce.vercel.app/petiscos_petisco-de-cenoura.html" class="showcase-category">${product.category}</a>
+                    <a href="https://fuzue-pet-store-anon-ecommerce.vercel.app/petiscos_petisco-de-cenoura.html">
+                      <h3 class="showcase-title">${product.title}</h3>
+                    </a>
+                    <div class="showcase-rating">
+                      ${Array(product.rating).fill('<ion-icon name="star"></ion-icon>').join('')}
+                    </div>
+                    <div class="price-box">
+                      <p class="price">${product.price}</p>
+                    </div>
+                  </div>
+                </div>`).join('')}
+            </div>
           </div>
         </div>
-
       </div>
-
     </div>
+    
 
   </main>
 
@@ -466,7 +379,7 @@
     - custom js link
   -->
   <script src="./assets/js/script.js"></script>
-
+  <script src="./assets/js/produtos.js"></script>
   <!--
     - ionicon link
   -->
