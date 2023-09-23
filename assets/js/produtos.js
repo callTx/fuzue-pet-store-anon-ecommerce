@@ -134,6 +134,7 @@ const filteredProducts = products.filter(product => product.category === categor
 
 filteredProducts.forEach((product) => {
   const productHTML = generateProductHTML(product);
+  console.log("url: ",product.pageSrc+product.parametros);
   productGridDiv.innerHTML += productHTML;
 });
 
