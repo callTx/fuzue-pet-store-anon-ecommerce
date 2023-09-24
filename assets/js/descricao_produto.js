@@ -41,12 +41,12 @@ whatsappApiUrlTextFormatada = replacePercent20WithSpace(whatsappApiUrlText);
 
 
 const productShowcaseDivInicio = generateProductShowcaseDivInicio();
-productMainDiv.innerHTML += productShowcaseDivInicio;
 
 const productSliderContainerHasScrollbarDiv = generateProductSliderContainerHasScrollbarDiv(imgSrcProductName);
-productMainDiv.innerHTML += productSliderContainerHasScrollbarDiv;
+productSliderContainerHasScrollbarDiv += productShowcaseDivInicio;
 
 const productShowcaseDivFim = generateProductShowcaseDivFim(showcaseTitle,showcaseDesc,price,whatsappApiUrl,whatsappApiUrlText)
+productShowcaseDivFim += productSliderContainerHasScrollbarDiv;
 productMainDiv.innerHTML += productShowcaseDivFim;
 
 
