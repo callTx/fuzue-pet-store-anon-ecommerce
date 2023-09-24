@@ -39,7 +39,7 @@ const whatsappApiUrlText = getParameterByName('text');
 whatsappApiUrlFormatada = replacePercent20WithSpace(whatsappApiUrl);
 whatsappApiUrlTextFormatada = replacePercent20WithSpace(whatsappApiUrlText);
 
-const innerHTMLBody = ``;
+var innerHTMLBody = ``;
 
 const productShowcaseDivInicio = generateProductShowcaseDivInicio();
 innerHTMLBody  = innerHTMLBody +  productShowcaseDivInicio;
