@@ -17,6 +17,16 @@ titleH2.textContent = "Comprar produto";
 
 productMainDiv.appendChild(titleH2);
 
+const productFeature = document.createElement("div");
+productFeature.classList.add("product-featured");
+
+const productShowcaseContainer = document.createElement("div");
+productShowcaseContainer.classList.add("showcase-container");
+
+const productShowcase = document.createElement("div");
+productShowcase.classList.add("showcase");
+
+
 // Iterate through products and generate HTML for each product
 function getParameterByName(name, url) {
   if (!url) url = window.location.href;
@@ -40,29 +50,18 @@ whatsappApiUrlFormatada = replacePercent20WithSpace(whatsappApiUrl);
 whatsappApiUrlTextFormatada = replacePercent20WithSpace(whatsappApiUrlText);
 
 
-const productShowcaseDivInicio = generateProductShowcaseDivInicio();
-productMainDiv.innerHTML += productShowcaseDivInicio;
-
 const productSliderContainerHasScrollbarDiv = generateProductSliderContainerHasScrollbarDiv(imgSrcProductName);
-productMainDiv.innerHTML += productSliderContainerHasScrollbarDiv;
+productShowcase.innerHTML += productSliderContainerHasScrollbarDiv;
 
 const productShowcaseDivFim = generateProductShowcaseDivFim(showcaseTitle,showcaseDesc,price,whatsappApiUrl,whatsappApiUrlText)
-productMainDiv.innerHTML += productShowcaseDivFim;
+productShowcase.innerHTML += productShowcaseDivFim;
 
 
 function replacePercent20WithSpace(inputString) {
   return inputString.replace(/%20/g, ' ');
 }
 
-function generateProductShowcaseDivInicio(){
-  return `
 
-            <div class="product-featured">
-
-                <div class="showcase-container">
-
-                  <div class="showcase">`;
-}
 
 function generateProductSliderContainerHasScrollbarDiv(imgSrcProductName){
   return `
@@ -110,7 +109,7 @@ function generateProductShowcaseDivFim(showcaseTitle,showcaseDesc,price,whatsapp
               </a>
           
 
-        </div>
+          </div>
 
         </div>
         </div>
