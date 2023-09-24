@@ -39,15 +39,17 @@ const whatsappApiUrlText = getParameterByName('text');
 whatsappApiUrlFormatada = replacePercent20WithSpace(whatsappApiUrl);
 whatsappApiUrlTextFormatada = replacePercent20WithSpace(whatsappApiUrlText);
 
+const innerHTMLBody = ``;
 
 const productShowcaseDivInicio = generateProductShowcaseDivInicio();
+innerHTMLBody  = innerHTMLBody +  productShowcaseDivInicio;
 
 const productSliderContainerHasScrollbarDiv = generateProductSliderContainerHasScrollbarDiv(imgSrcProductName);
-productSliderContainerHasScrollbarDiv += productShowcaseDivInicio;
+innerHTMLBody = innerHTMLBody + productShowcaseDivInicio;
 
 const productShowcaseDivFim = generateProductShowcaseDivFim(showcaseTitle,showcaseDesc,price,whatsappApiUrl,whatsappApiUrlText)
-productShowcaseDivFim += productSliderContainerHasScrollbarDiv;
-productMainDiv.innerHTML += productShowcaseDivFim;
+innerHTMLBody = innerHTMLBody + productSliderContainerHasScrollbarDiv;
+productMainDiv.innerHTML += innerHTMLBody;
 
 
 function replacePercent20WithSpace(inputString) {
