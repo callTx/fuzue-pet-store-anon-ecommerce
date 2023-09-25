@@ -80,7 +80,7 @@ function generateProductHTML(imgSrcProductNameList, showcaseTitle, showcaseDesc,
             
               <div class="slider-item">                
                 <div class="showcase-banner">
-                  <img src="./assets/images/products/${imgSrcProductName}" alt="shampoo, conditioner & facewash packs" class="showcase-img">
+                  <img src="./assets/images/products/${imgSrcProductName}" width="300" class="showcase-img">
                 </div>
               </div>    
     `;
