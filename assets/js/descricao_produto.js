@@ -39,7 +39,27 @@ const whatsappApiUrlText = getParameterByName('text');
 whatsappApiUrlFormatada = replacePercent20WithSpace(whatsappApiUrl);
 whatsappApiUrlTextFormatada = replacePercent20WithSpace(whatsappApiUrlText);
 
-const imgSrcProductNameList = ['lick-mat-ufo-roxo.jpg', 'lick-mat-ufo-roxo-2.jpg', 'lick-mat-ufo-roxo-3.jpg']; // Replace with your list of product image names
+function parseImageString(imageString) {
+  // Split the input string by comma to get an array of image names
+  const imageArray = imageString.split(',');
+
+  // Use map to format each image name as 'productX.jpg'
+  const imgSrcProductNameList = imageArray.map((imageName, index) => {
+    // Remove spaces and ensure the file extension is '.jpg'
+    const formattedName = imageName.trim().toLowerCase();
+    if (formattedName.endsWith('.jpg')) {
+      return formattedName;
+    } else {
+      return `${formattedName}-${index + 1}.jpg`;
+    }
+  });
+
+  return imgSrcProductNameList;
+}
+
+
+
+const imgSrcProductNameList = parseImageString(imgSrcProductName);
 
 const productHTML =  generateProductHTML(imgSrcProductNameList, showcaseTitle, showcaseDesc, price, whatsappApiUrl, whatsappApiUrlText);
 productMainDiv.innerHTML += productHTML;
