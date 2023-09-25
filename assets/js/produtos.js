@@ -136,6 +136,15 @@ const products = [
     pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=pawise-slow-feeder-laranja-4-copos.jpg&showcaseTitle=Comedouro Pawise Slow Feeder Laranja 4 cups&showcaseDesc=Comedouro Pawise Slow Feeder Laranja 4 cups&price=R$ 135,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Comedouro Pawise Slow Feeder Laranja 4 cups'."
   },
   {
+    category:"comedouros",
+    imgSrc: "./assets/images/products/pawise-slow-feeder-roxo-4-copos.jpg",
+    altText: "Comedouro Pawise Slow Feeder 4 cups Roxo",
+    nameTitle: "Comedouro Pawise Slow Feeder 4 cups Roxo",
+    title: "Comedouro Pawise Slow Feeder Roxo 4 cups",
+    price: "R$ 135,00",
+    pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=pawise-slow-feeder-roxo-4-copos.jpg&showcaseTitle=Comedouro Pawise Slow Feeder Roxo 4 cups&showcaseDesc=Comedouro Pawise Slow Feeder Roxo 4 cups&price=R$ 135,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Comedouro Pawise Slow Feeder Roxo 4 cups'."
+  },
+  {
     category:"tapetes_para_alimentacao",
     imgSrc: "./assets/images/products/pawise-lick-it-quadrado-azul.jpg",
     altText: "Tapetes para Alimentação Pawise Lick It Azul",
