@@ -171,6 +171,15 @@ const products = [
     price: "R$ 73,00",
     pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=kong-lick-g-vermelho.jpg,kong-lick-g-vermelho-2.jpg&showcaseTitle=Kong Lick Tam G Vermelho&showcaseDesc=KONG Licks é um brinquedo feito para que o cachorro lamba o conteúdo e, com isso, alivie o estresse, sinta prazer, se distraia e contribua para a limpeza oral. Contém 2 ventosas que aderem à qualquer superfície lisa. Ideal para ser usado com pasta de amendoim e outros petiscos pastosos ou até sólidos. As diferentes superfícies servem para segurar alimento e mudar o desafio durante a sessão de lambidas. Importante: Não é um objeto de roer. Não deve ser deixado sozinho com o cão nem por alguns minutos, até ter certeza de que o cão não irá destruí-lo. Acabado o alimeto, remova e limpe com água e sabão neutro. A garantia não cobre danos feitos pelo cão, apenas defeitos de fabricação. Siga as dicas de uso e indicação de tipo de cão.&price=R$ 73,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Kong Lick Tam G Vermelho'."
   },
+  {
+    category:"pelucias",
+    imgSrc: "./assets/images/products/kong-wubba-azul.jpg",
+    altText: "Pelúcia Kong Wubba Azul",
+    nameTitle: "Pelúcia Kong Wubba Azul",
+    title: "Pelúcia Kong Wubba Azul",
+    price: "R$ 81,00",
+    pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=kong-wubba-azul.jpg,kong-wubba-azul-2.jpg,kong-wubba-azul-3.jpg&showcaseTitle=Pelúcia Kong Wubba Azul&showcaseDesc=KONG Wubba Octopus e brinquedo que vai satisfazer os instintos do seu cão de maneira divertida e estimulante. Com suas pernas penduradas e corpo alongado, o Wubba Octopus é perfeito para sacudir e balançar, atendendo aos instintos naturais do seu cão de forma envolvente. As pernas compridas e maleáveis do Wubba Octopus convidam a brincadeiras empolgantes, proporcionando ao seu cão uma sensação de satisfação instintiva. Além disso, o apito interno do brinquedo prolonga a diversão, mantendo o interesse do seu cão por mais tempo.&price=R$ 81,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Pelúcia Kong Wubba Azul'."
+  },
 
 ];
 
