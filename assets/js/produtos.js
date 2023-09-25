@@ -19,12 +19,12 @@ const products = [
   },
   {
     category:"petiscos_naturais",
-    imgSrc: "./assets/images/products/snack-file-suino.jpg",
+    imgSrc: "./assets/images/products/snack-de-file-suino.jpg",
     altText: "Snack Filé Suíno",
     nameTitle: "Snack Filé Suíno",
     title: "Snack Filé Suíno The Bull",
     price: "R$ 30,00",
-    pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=snack-file-suino.jpg&showcaseTitle=Snack Filé Suíno The Bull&showcaseDesc=O Snack de Filé Mignon Suíno The Bull é um petisco desidratado totalmente natural, com um único ingrediente. Fabricado sem adição de farinha de trigo, livre de qualquer conservante, açucares, corantes, aromatizantes e aditivos químicos. É um item indispensável para ser utilizado como recompensa nos treinos dos pets e para enriquecimento ambiental. IMPORTANTE: Este produto não substitui a alimentação principal.&price=R$ 30,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Snack Filé Suíno The Bull'."
+    pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=snack-de-file-suino.jpg&showcaseTitle=Snack Filé Suíno The Bull&showcaseDesc=O Snack de Filé Mignon Suíno The Bull é um petisco desidratado totalmente natural, com um único ingrediente. Fabricado sem adição de farinha de trigo, livre de qualquer conservante, açucares, corantes, aromatizantes e aditivos químicos. É um item indispensável para ser utilizado como recompensa nos treinos dos pets e para enriquecimento ambiental. IMPORTANTE: Este produto não substitui a alimentação principal.&price=R$ 30,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Snack Filé Suíno The Bull'."
   },
   
   {
