@@ -83,7 +83,7 @@ const products = [
   },
   {
     category:"comedouros",
-    imgSrc: "./assets/images/products/lick-mat-ufo.jpg",
+    imgSrc: "./assets/images/products/lick-mat-ufo-roxo.jpg",
     altText: "Lick Mat Ufo Roxo",
     nameTitle: "Lick Mat Ufo Roxo",
     title: "Lick Mat Ufo Roxo - LickMat",
