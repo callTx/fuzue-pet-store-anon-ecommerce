@@ -110,12 +110,30 @@ const products = [
   },
   {
     category:"comedouros",
+    imgSrc: "./assets/images/products/pawise-slow-feeder-laranja-2-copos.jpg",
+    altText: "Comedouro Pawise Slow Feeder 2 cups Laranja",
+    nameTitle: "Comedouro Pawise Slow Feeder 2 cups Laranja",
+    title: "Comedouro Pawise Slow Feeder Laranja 2 cups",
+    price: "R$ 96,00",
+    pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=pawise-slow-feeder-laranja-2-copos.jpg&showcaseTitle=Comedouro Pawise Slow Feeder Laranja 2 cups&showcaseDesc=Comedouro Pawise Slow Feeder Laranja 2 cups&price=R$ 135,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Comedouro Pawise Slow Feeder Laranja 2 cups'."
+  },
+  {
+    category:"comedouros",
     imgSrc: "./assets/images/products/pawise-slow-feeder-azul-4-copos.jpg",
     altText: "Comedouro Pawise Slow Feeder 4 cups Azul",
     nameTitle: "Comedouro Pawise Slow Feeder 4 cups Azul",
     title: "Comedouro Pawise Slow Feeder Azul 4 cups",
     price: "R$ 135,00",
     pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=pawise-slow-feeder-azul-4-copos.jpg&showcaseTitle=Comedouro Pawise Slow Feeder Azul 4 cups&showcaseDesc=Comedouro Pawise Slow Feeder Azul 4 cups&price=R$ 135,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Comedouro Pawise Slow Feeder Azul 4 cups'."
+  },
+  {
+    category:"comedouros",
+    imgSrc: "./assets/images/products/pawise-slow-feeder-laranja-4-copos.jpg",
+    altText: "Comedouro Pawise Slow Feeder 4 cups Laranja",
+    nameTitle: "Comedouro Pawise Slow Feeder 4 cups Laranja",
+    title: "Comedouro Pawise Slow Feeder Laranja 4 cups",
+    price: "R$ 135,00",
+    pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=pawise-slow-feeder-laranja-4-copos.jpg&showcaseTitle=Comedouro Pawise Slow Feeder Laranja 4 cups&showcaseDesc=Comedouro Pawise Slow Feeder Laranja 4 cups&price=R$ 135,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Comedouro Pawise Slow Feeder Laranja 4 cups'."
   },
   {
     category:"tapetes_para_alimentacao",
