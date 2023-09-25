@@ -189,6 +189,15 @@ const products = [
     price: "R$ 81,00",
     pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=kong-reefz.jpg&showcaseTitle=Pelúcia Kong Reefz&showcaseDesc=O KONG Reefz apresenta várias texturas que recompensam os comportamentos de mastigação instintivos.O material KONG Ballistic durável e os corpos lisos e flexíveis incentivam as brincadeiras de sacudir.&price=R$ 81,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Pelúcia Kong Reefz'."
   },
+  {
+    category:"pelucias",
+    imgSrc: "./assets/images/products/kong-bone.jpg",
+    altText: "Pelúcia Kong Maxx Bone",
+    nameTitle: "Pelúcia Kong Maxx Bone",
+    title: "Pelúcia Kong Maxx Bone",
+    price: "R$ 81,00",
+    pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=kong-bone.jpg&showcaseTitlePelúcia Kong Maxx Bone&showcaseDesc=Pelucia Kong Maxx é um brinquedo desenvolvido para cães mordidas leves e moderadas e não destruidores. É um brinquedo extremamente durável para ser jogado para brincadeiras interativas de luta e jogar e buscar. Fabricado com um material desafiador, 5 vezes mais durável à perfuração que um tecido convencional. Possui apito para aumentar ainda mais o estímulo da brincadeira. Importante: Não é um objeto de roer. Não deve ser deixado sozinho com o cão nem por alguns minutos, até ter certeza de que o cão não irá destruí-lo,. Para cães com mordida forte e destruidores, prefira os brinquedos de borracha natural. Acabada a brincadeira, guarde para a próxima. Composição: Tecidos e apito.&price=R$ 81,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Pelúcia Kong Maxx Bone'."
+  },
 
 ];
 
