@@ -19,7 +19,7 @@ const products = [
   },
   {
     category:"petiscos_naturais",
-    imgSrc: "./assets/images/products/snack-file-suino",
+    imgSrc: "./assets/images/products/snack-file-suino.jpg",
     altText: "Snack Filé Suíno",
     nameTitle: "Snack Filé Suíno",
     title: "Snack Filé Suíno The Bull",
