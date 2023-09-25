@@ -198,6 +198,15 @@ const products = [
     price: "R$ 81,00",
     pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=kong-bone.jpg&showcaseTitle=Pelúcia Kong Maxx Bone&showcaseDesc=Pelucia Kong Maxx é um brinquedo desenvolvido para cães mordidas leves e moderadas e não destruidores. É um brinquedo extremamente durável para ser jogado para brincadeiras interativas de luta e jogar e buscar. Fabricado com um material desafiador, 5 vezes mais durável à perfuração que um tecido convencional. Possui apito para aumentar ainda mais o estímulo da brincadeira. Importante: Não é um objeto de roer. Não deve ser deixado sozinho com o cão nem por alguns minutos, até ter certeza de que o cão não irá destruí-lo,. Para cães com mordida forte e destruidores, prefira os brinquedos de borracha natural. Acabada a brincadeira, guarde para a próxima. Composição: Tecidos e apito.&price=R$ 81,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Pelúcia Kong Maxx Bone'."
   },
+  {
+    category:"pelucias",
+    imgSrc: "./assets/images/products/kong-shakers-vermelho.jpg",
+    altText: "Pelúcia Kong Shakers",
+    nameTitle: "Pelúcia Kong Shakers",
+    title: "Pelúcia Kong Shakers",
+    price: "R$ 81,00",
+    pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=kong-shakers-vermelho.jpg&showcaseTitle=Pelúcia Kong Shakers&showcaseDesc=KONG Shakers Shimmy Crab é um brinquedo desenvolvido para cães de mordida leve e não destruidores. Desenhado com tamanho grande com abas gigantescas que satisfazem o instinto de chacoalhar a presa, dos cães. O corpo alongado torna o ato de chacoalhar mais divertido. Possui apitos para aumentar o engajamento. As abas possuem estalidos para estimular ainda mais o seu cão. Perfeito pra ser jogado em brincadeiras de jogar e trazer. Importante: Não é um objeto de roer. Não deve ser deixado sozinho com o cão nem por alguns minutos, até ter certeza de que o cão não irá destruí-lo,. Destinado à cães com mordidas leves. Para cães com mordida forte e destruidores, prefira os brinquedos de borracha natural.  Acabada a brincadeira, guarde para a próxima.&price=R$ 81,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Pelúcia Kong Shakers'."
+  },
 
 ];
 
