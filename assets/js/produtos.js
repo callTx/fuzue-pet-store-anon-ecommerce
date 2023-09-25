@@ -180,6 +180,15 @@ const products = [
     price: "R$ 81,00",
     pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=kong-wubba-azul.jpg,kong-wubba-azul-2.jpg,kong-wubba-azul-3.jpg&showcaseTitle=Pelúcia Kong Wubba Azul&showcaseDesc=KONG Wubba Octopus e brinquedo que vai satisfazer os instintos do seu cão de maneira divertida e estimulante. Com suas pernas penduradas e corpo alongado, o Wubba Octopus é perfeito para sacudir e balançar, atendendo aos instintos naturais do seu cão de forma envolvente. As pernas compridas e maleáveis do Wubba Octopus convidam a brincadeiras empolgantes, proporcionando ao seu cão uma sensação de satisfação instintiva. Além disso, o apito interno do brinquedo prolonga a diversão, mantendo o interesse do seu cão por mais tempo.&price=R$ 81,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Pelúcia Kong Wubba Azul'."
   },
+  {
+    category:"pelucias",
+    imgSrc: "./assets/images/products/kong-reefz.jpg",
+    altText: "Pelúcia Kong Reefz",
+    nameTitle: "Pelúcia Kong Reefz",
+    title: "Pelúcia Kong Reefz",
+    price: "R$ 81,00",
+    pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=kong-reefz.jpg&showcaseTitle=Pelúcia Kong Reefz&showcaseDesc=O KONG Reefz apresenta várias texturas que recompensam os comportamentos de mastigação instintivos.O material KONG Ballistic durável e os corpos lisos e flexíveis incentivam as brincadeiras de sacudir.&price=R$ 81,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Pelúcia Kong Reefz'."
+  },
 
 ];
 
