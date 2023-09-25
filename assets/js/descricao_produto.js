@@ -39,143 +39,66 @@ const whatsappApiUrlText = getParameterByName('text');
 whatsappApiUrlFormatada = replacePercent20WithSpace(whatsappApiUrl);
 whatsappApiUrlTextFormatada = replacePercent20WithSpace(whatsappApiUrlText);
 
-var innerHTMLBody = ``;
-
-const productShowcaseDivInicio = generateProductShowcaseDivInicio();
-innerHTMLBody  = innerHTMLBody +  productShowcaseDivInicio;
-
-const productSliderContainerHasScrollbarDiv = generateProductSliderContainerHasScrollbarDiv(imgSrcProductName);
-innerHTMLBody = innerHTMLBody + productShowcaseDivInicio;
-
-const productShowcaseDivFim = generateProductShowcaseDivFim(showcaseTitle,showcaseDesc,price,whatsappApiUrl,whatsappApiUrlText)
-innerHTMLBody = innerHTMLBody + productSliderContainerHasScrollbarDiv;
-productMainDiv.innerHTML += innerHTMLBody;
-
+const productHTML = generateProductHTML(imgSrcProductName,showcaseTitle,showcaseDesc,price,whatsappApiUrlFormatada,whatsappApiUrlTextFormatada);
+productMainDiv.innerHTML += productHTML;
 
 function replacePercent20WithSpace(inputString) {
   return inputString.replace(/%20/g, ' ');
 }
 
-function generateProductShowcaseDivInicio(){
-  return `
 
-            <div class="product-featured">
+function generateProductHTML(imgSrcProductNameList, showcaseTitle, showcaseDesc, price, whatsappApiUrl, whatsappApiUrlText) {
+  let productHTML = `
+  <div class="product-featured">
+    <div class="showcase-container">
+      <div class="showcase">
+        <div class="slider-container has-scrollbar">`;
 
-                <div class="showcase-container">
+  imgSrcProductNameList.forEach(imgSrcProductName => {
+    productHTML += `
+            
+              <div class="slider-item">                
+                <div class="showcase-banner">
+                  <img src="./assets/images/products/${imgSrcProductName}" alt="shampoo, conditioner & facewash packs" class="showcase-img">
+                </div>
+              </div>    
+    `;
+  });
 
-                  <div class="showcase">`;
-}
-
-function generateProductSliderContainerHasScrollbarDiv(imgSrcProductName){
-  return `
-  <div class="slider-container has-scrollbar">
-
-    <div class="slider-item">                
-        <div class="showcase-banner">
-          <img src="./assets/images/products/${imgSrcProductName}" alt="shampoo, conditioner & facewash packs" class="showcase-img">
+  productHTML += `
         </div>
+        <div class="showcase-content">
+          <div class="showcase-rating">
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+          </div>
+          <a href="#">
+            <h3 class="showcase-title">${showcaseTitle}</h3>
+          </a>
+          <p class="showcase-desc">
+            ${showcaseDesc}
+          </p>
+          <div class="price-box">
+            <p class="price">${price}</p>
+          </div>
+          <a href="${whatsappApiUrl}&text=${whatsappApiUrlText}" target="_blank">
+            <button class="add-cart-btn" onclick="openWhatsApp()" style="display: flex; align-items: center;">
+              <img src="./assets/images/icons/whatsapp-color-svgrepo-com.svg" alt="SVG Alt Text" width="32" height="32" style="margin-right: 10px;">
+              Comprar
+            </button>
+          </a>
+        </div>
+      </div>
     </div>
   </div>
-`;
+  `;
+
+  return productHTML;
 }
 
-function generateProductShowcaseDivFim(showcaseTitle,showcaseDesc,price,whatsappApiUrl,whatsappApiUrlText){
-  return `
-
-          <div class="showcase-content">
-                              
-              <div class="showcase-rating">
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
-                <ion-icon name="star"></ion-icon>
-              </div>
-
-              <a href="#">
-                <h3 class="showcase-title">${showcaseTitle}</h3>
-              </a>
-
-              <p class="showcase-desc">
-                ${showcaseDesc}
-              </p>
-
-              <div class="price-box">
-                <p class="price">${price}</p>
-              </div>
-
-              <a href="${whatsappApiUrl}&text=${whatsappApiUrlText}" target="_blank">
-                <button class="add-cart-btn" onclick="openWhatsApp()" style="display: flex; align-items: center;">
-                  <img src="./assets/images/icons/whatsapp-color-svgrepo-com.svg" alt="SVG Alt Text" width="32" height="32" style="margin-right: 10px;">
-                  Comprar
-                </button>
-              </a>
-          
-
-        </div>
-
-        </div>
-        </div>
-        </div>
-        `;
-}
-
-
-function generateProductHTML(imgSrcProductName,showcaseTitle,showcaseDesc,price,whatsappApiUrl,whatsappApiUrlText) {
-  return `
-
-            <div class="product-featured">
-
-                <div class="showcase-container">
-
-                  <div class="showcase">
-
-                    <div class="slider-container has-scrollbar">
-
-                      <div class="slider-item">                
-                          <div class="showcase-banner">
-                            <img src="./assets/images/products/${imgSrcProductName}" alt="shampoo, conditioner & facewash packs" class="showcase-img">
-                          </div>
-                      </div>
-                    </div>
-                  
-                    <div class="showcase-content">
-                      
-                      <div class="showcase-rating">
-                        <ion-icon name="star"></ion-icon>
-                        <ion-icon name="star"></ion-icon>
-                        <ion-icon name="star"></ion-icon>
-                        <ion-icon name="star"></ion-icon>
-                        <ion-icon name="star"></ion-icon>
-                      </div>
-
-                      <a href="#">
-                        <h3 class="showcase-title">${showcaseTitle}</h3>
-                      </a>
-
-                      <p class="showcase-desc">
-                        ${showcaseDesc}
-                      </p>
-
-                      <div class="price-box">
-                        <p class="price">${price}</p>
-                      </div>
-
-                      <a href="${whatsappApiUrl}&text=${whatsappApiUrlText}" target="_blank">
-                        <button class="add-cart-btn" onclick="openWhatsApp()" style="display: flex; align-items: center;">
-                          <img src="./assets/images/icons/whatsapp-color-svgrepo-com.svg" alt="SVG Alt Text" width="32" height="32" style="margin-right: 10px;">
-                          Comprar
-                        </button>
-                      </a>
-                      
-
-                    </div>
-
-                  </div>
-                </div>
-            </div>
-    `;
-}
 
 // Append the generated product grid to the main product grid div
 
