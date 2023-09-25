@@ -84,38 +84,56 @@ const products = [
   {
     category:"comedouros",
     imgSrc: "./assets/images/products/lick-mat-ufo-roxo.jpg",
-    altText: "Lick Mat Ufo Roxo",
-    nameTitle: "Lick Mat Ufo Roxo",
-    title: "Lick Mat Ufo Roxo - LickMat",
+    altText: "Comedouro Lick Mat Ufo Roxo",
+    nameTitle: "Comedouro Lick Mat Ufo Roxo",
+    title: "Comedouro Lick Mat Ufo Roxo - LickMat",
     price: "R$ 135,00",
-    pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=lick-mat-ufo-roxo.jpg,lick-mat-ufo-roxo-2.jpg,lick-mat-ufo-roxo-3.jpg,lick-mat-ufo-roxo-4.jpg&showcaseTitle=Lick Mat Ufo Roxo - LickMat&showcaseDesc=LickiMat® é uma família de produtos exclusivos, inovadores e patenteados, desenvolvidos por veterinários para cães e gatos. - São produzidos com borracha de grau humano (TPR) e completamente atóxicos, não contendo silicone ou substâncias tóxicas que possam prejudicar seus melhores amigos. - Disponível em vários formatos e cores, favor consultar disponibilidade ou se houver dúvidas. - Este produto deve ser utilizado com supervisão do dono, se houver muitos danos deve ser substituído. - Recomendado para filhotes de cães de todos os tamanhos. - Composição: Borracha de grau humano atóxica. - Dimensões Aproximadas: 20 x 20 cm&price=R$ 135,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Lick Mat Ufo Roxo'."
+    pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=lick-mat-ufo-roxo.jpg,lick-mat-ufo-roxo-2.jpg,lick-mat-ufo-roxo-3.jpg,lick-mat-ufo-roxo-4.jpg&showcaseTitle=Comedouro Lick Mat Ufo Roxo - LickMat&showcaseDesc=LickiMat® é uma família de produtos exclusivos, inovadores e patenteados, desenvolvidos por veterinários para cães e gatos. - São produzidos com borracha de grau humano (TPR) e completamente atóxicos, não contendo silicone ou substâncias tóxicas que possam prejudicar seus melhores amigos. - Disponível em vários formatos e cores, favor consultar disponibilidade ou se houver dúvidas. - Este produto deve ser utilizado com supervisão do dono, se houver muitos danos deve ser substituído. - Recomendado para filhotes de cães de todos os tamanhos. - Composição: Borracha de grau humano atóxica. - Dimensões Aproximadas: 20 x 20 cm&price=R$ 135,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Lick Mat Ufo Roxo'."
   },
   {
     category:"comedouros",
     imgSrc: "./assets/images/products/lick-mat-ufo-azul.jpg",
-    altText: "Lick Mat Ufo Azul",
-    nameTitle: "Lick Mat Ufo Azul",
-    title: "Lick Mat Ufo Azul - LickMat",
+    altText: "Comedouro Lick Mat Ufo Azul",
+    nameTitle: "Comedouro Lick Mat Ufo Azul",
+    title: "Comedouro Lick Mat Ufo Azul - LickMat",
     price: "R$ 135,00",
-    pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=lick-mat-ufo-azul.jpg&showcaseTitle=Lick Mat Ufo Azul - LickMat&showcaseDesc=LickiMat® é uma família de produtos exclusivos, inovadores e patenteados, desenvolvidos por veterinários para cães e gatos. - São produzidos com borracha de grau humano (TPR) e completamente atóxicos, não contendo silicone ou substâncias tóxicas que possam prejudicar seus melhores amigos. - Disponível em vários formatos e cores, favor consultar disponibilidade ou se houver dúvidas. - Este produto deve ser utilizado com supervisão do dono, se houver muitos danos deve ser substituído. - Recomendado para filhotes de cães de todos os tamanhos. - Composição: Borracha de grau humano atóxica. - Dimensões Aproximadas: 20 x 20 cm&price=R$ 135,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Lick Mat Ufo Azul'."
+    pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=lick-mat-ufo-azul.jpg&showcaseTitle=Comedouro Lick Mat Ufo Azul - LickMat&showcaseDesc=LickiMat® é uma família de produtos exclusivos, inovadores e patenteados, desenvolvidos por veterinários para cães e gatos. - São produzidos com borracha de grau humano (TPR) e completamente atóxicos, não contendo silicone ou substâncias tóxicas que possam prejudicar seus melhores amigos. - Disponível em vários formatos e cores, favor consultar disponibilidade ou se houver dúvidas. - Este produto deve ser utilizado com supervisão do dono, se houver muitos danos deve ser substituído. - Recomendado para filhotes de cães de todos os tamanhos. - Composição: Borracha de grau humano atóxica. - Dimensões Aproximadas: 20 x 20 cm&price=R$ 135,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Lick Mat Ufo Azul'."
+  },
+  {
+    category:"comedouros",
+    imgSrc: "./assets/images/products/pawise-slow-feeder-azul-2-copos.jpg",
+    altText: "Comedouro Pawise Slow Feeder 2 cups Azul",
+    nameTitle: "Comedouro Pawise Slow Feeder 2 cups Azul",
+    title: "Comedouro Pawise Slow Feeder Azul 2 cups",
+    price: "R$ 96,00",
+    pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=pawise-slow-feeder-azul-2-copos.jpg&showcaseTitle=Comedouro Pawise Slow Feeder Azul 2 cups&showcaseDesc=Comedouro Pawise Slow Feeder Azul 2 cups&price=R$ 135,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Comedouro Pawise Slow Feeder Azul 2 cups'."
+  },
+  {
+    category:"comedouros",
+    imgSrc: "./assets/images/products/pawise-slow-feeder-azul-4-copos.jpg",
+    altText: "Comedouro Pawise Slow Feeder 4 cups Azul",
+    nameTitle: "Comedouro Pawise Slow Feeder 4 cups Azul",
+    title: "Comedouro Pawise Slow Feeder Azul 4 cups",
+    price: "R$ 135,00",
+    pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=pawise-slow-feeder-azul-4-copos.jpg&showcaseTitle=Comedouro Pawise Slow Feeder Azul 4 cups&showcaseDesc=Comedouro Pawise Slow Feeder Azul 4 cups&price=R$ 135,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Comedouro Pawise Slow Feeder Azul 4 cups'."
   },
   {
     category:"tapetes_para_alimentacao",
     imgSrc: "./assets/images/products/pawise-lick-it-quadrado-azul.jpg",
-    altText: "Pawise Lick It Azul",
-    nameTitle: "Pawise Lick It Azul Quadrado",
-    title: "Pawise Lick It Azul Quadrado",
+    altText: "Tapetes para Alimentação Pawise Lick It Azul",
+    nameTitle: "Tapetes para Alimentação Pawise Lick It Azul Quadrado",
+    title: "Tapetes para Alimentação Pawise Lick It Azul Quadrado",
     price: "R$ 92,00",
-    pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=pawise-lick-it-quadrado-azul.jpg,pawise-lick-it-quadrado-azul-2.jpg&showcaseTitle=Pawise Lick It Azul Quadrado&showcaseDesc=Os tapetes Licker são uma ótima maneira de enriquecer seus cães e ajudar na digestão. A sucção forte ajuda a manter o lambedor no chão. Pode ser usado para alimentos úmidos e secos e é fácil de limpar. Um tapete lambedor de cães é um tapete especializado projetado para promover calma e relaxamento em cães. Ele apresenta uma série de pequenas saliências ou cristas que o cão pode lamber ou mordiscar. A ideia por trás do tapete lambedor de cachorro é que o movimento repetitivo de lamber pode ajudar a acalmar e acalmar o cão, reduzindo a ansiedade e o estresse. A textura do tapete também pode fornecer estimulação sensorial e ajudar a distrair o cão de outros estímulos que possam estar causando ansiedade ou excitação.&price=R$ 92,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Pawise Lick It Azul Quadrado'."
+    pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=pawise-lick-it-quadrado-azul.jpg,pawise-lick-it-quadrado-azul-2.jpg&showcaseTitle=Tapetes para Alimentação Pawise Lick It Azul Quadrado&showcaseDesc=Os tapetes Licker são uma ótima maneira de enriquecer seus cães e ajudar na digestão. A sucção forte ajuda a manter o lambedor no chão. Pode ser usado para alimentos úmidos e secos e é fácil de limpar. Um tapete lambedor de cães é um tapete especializado projetado para promover calma e relaxamento em cães. Ele apresenta uma série de pequenas saliências ou cristas que o cão pode lamber ou mordiscar. A ideia por trás do tapete lambedor de cachorro é que o movimento repetitivo de lamber pode ajudar a acalmar e acalmar o cão, reduzindo a ansiedade e o estresse. A textura do tapete também pode fornecer estimulação sensorial e ajudar a distrair o cão de outros estímulos que possam estar causando ansiedade ou excitação.&price=R$ 92,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Tapetes para Alimentação Pawise Lick It Azul'."
   },
   {
     category:"tapetes_para_alimentacao",
     imgSrc: "./assets/images/products/pawise-lick-it-redondo-azul.jpg",
-    altText: "Pawise Lick It Azul Redondo",
-    nameTitle: "Pawise Lick It Azul Redondo",
-    title: "Pawise Lick It Azul Redondo",
+    altText: "Tapetes para Alimentação Pawise Lick It Azul Redondo",
+    nameTitle: "Tapetes para Alimentação Pawise Lick It Azul Redondo",
+    title: "Tapetes para Alimentação Pawise Lick It Azul Redondo",
     price: "R$ 92,00",
-    pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=pawise-lick-it-redondo-azul.jpg,pawise-lick-it-redondo-azul-2.jpg&showcaseTitle=Pawise Lick It Azul Redondo&showcaseDesc=Os tapetes Licker são uma ótima maneira de enriquecer seus cães e ajudar na digestão. A sucção forte ajuda a manter o lambedor no chão. Pode ser usado para alimentos úmidos e secos e é fácil de limpar. Um tapete lambedor de cães é um tapete especializado projetado para promover calma e relaxamento em cães. Ele apresenta uma série de pequenas saliências ou cristas que o cão pode lamber ou mordiscar. A ideia por trás do tapete lambedor de cachorro é que o movimento repetitivo de lamber pode ajudar a acalmar e acalmar o cão, reduzindo a ansiedade e o estresse. A textura do tapete também pode fornecer estimulação sensorial e ajudar a distrair o cão de outros estímulos que possam estar causando ansiedade ou excitação.&price=R$ 92,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Pawise Lick It Azul Quadrado'."
+    pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=pawise-lick-it-redondo-azul.jpg,pawise-lick-it-redondo-azul-2.jpg&showcaseTitle=Tapetes para Alimentação Pawise Lick It Azul Redondo&showcaseDesc=Os tapetes Licker são uma ótima maneira de enriquecer seus cães e ajudar na digestão. A sucção forte ajuda a manter o lambedor no chão. Pode ser usado para alimentos úmidos e secos e é fácil de limpar. Um tapete lambedor de cães é um tapete especializado projetado para promover calma e relaxamento em cães. Ele apresenta uma série de pequenas saliências ou cristas que o cão pode lamber ou mordiscar. A ideia por trás do tapete lambedor de cachorro é que o movimento repetitivo de lamber pode ajudar a acalmar e acalmar o cão, reduzindo a ansiedade e o estresse. A textura do tapete também pode fornecer estimulação sensorial e ajudar a distrair o cão de outros estímulos que possam estar causando ansiedade ou excitação.&price=R$ 92,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Tapetes para Alimentação Pawise Lick It Azul Redondo'."
   },
 
 ];
