@@ -90,15 +90,7 @@ const products = [
     price: "R$ 135,00",
     pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=lick-mat-ufo.jpg&showcaseTitle=Lick Mat Ufo Roxo - LickMat&showcaseDesc=LickiMat® é uma família de produtos exclusivos, inovadores e patenteados, desenvolvidos por veterinários para cães e gatos. - São produzidos com borracha de grau humano (TPR) e completamente atóxicos, não contendo silicone ou substâncias tóxicas que possam prejudicar seus melhores amigos. - Disponível em vários formatos e cores, favor consultar disponibilidade ou se houver dúvidas. - Este produto deve ser utilizado com supervisão do dono, se houver muitos danos deve ser substituído. - Recomendado para filhotes de cães de todos os tamanhos. - Composição: Borracha de grau humano atóxica. - Dimensões Aproximadas: 20 x 20 cm&price=R$ 135,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Lick Mat Ufo Roxo'."
   },
-  {
-    category:"comedouros",
-    imgSrc: "./assets/images/products/lick-mat-ufo.jpg",
-    altText: "Lick Mat Ufo Azul",
-    nameTitle: "Lick Mat Ufo Azul",
-    title: "Lick Mat Ufo Azul - LickMat",
-    price: "R$ 135,00",
-    pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=lick-mat-ufo.jpg&showcaseTitle=Lick Mat Ufo Azul - LickMat&showcaseDesc=LickiMat® é uma família de produtos exclusivos, inovadores e patenteados, desenvolvidos por veterinários para cães e gatos. - São produzidos com borracha de grau humano (TPR) e completamente atóxicos, não contendo silicone ou substâncias tóxicas que possam prejudicar seus melhores amigos. - Disponível em vários formatos e cores, favor consultar disponibilidade ou se houver dúvidas. - Este produto deve ser utilizado com supervisão do dono, se houver muitos danos deve ser substituído. - Recomendado para filhotes de cães de todos os tamanhos. - Composição: Borracha de grau humano atóxica. - Dimensões Aproximadas: 20 x 20 cm&price=R$ 135,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Lick Mat Ufo Azul'."
-  },
+
 ];
 
 

@@ -39,13 +39,14 @@ const whatsappApiUrlText = getParameterByName('text');
 whatsappApiUrlFormatada = replacePercent20WithSpace(whatsappApiUrl);
 whatsappApiUrlTextFormatada = replacePercent20WithSpace(whatsappApiUrlText);
 
-const productHTML = generateProductHTML(imgSrcProductName,showcaseTitle,showcaseDesc,price,whatsappApiUrlFormatada,whatsappApiUrlTextFormatada);
+const productHTML =  generateProductHTML(imgSrcProductNameList, showcaseTitle, showcaseDesc, price, whatsappApiUrl, whatsappApiUrlText);
 productMainDiv.innerHTML += productHTML;
 
 function replacePercent20WithSpace(inputString) {
   return inputString.replace(/%20/g, ' ');
 }
 
+const imgSrcProductNameList = ['lick-mat-ufo-roxo.jpg', 'lick-mat-ufo-roxo-2.jpg', 'lick-mat-ufo-roxo-3.jpg']; // Replace with your list of product image names
 
 function generateProductHTML(imgSrcProductNameList, showcaseTitle, showcaseDesc, price, whatsappApiUrl, whatsappApiUrlText) {
   let productHTML = `
