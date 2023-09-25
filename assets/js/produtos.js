@@ -99,6 +99,15 @@ const products = [
     price: "R$ 135,00",
     pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=lick-mat-ufo-azul.jpg&showcaseTitle=Lick Mat Ufo Azul - LickMat&showcaseDesc=LickiMat® é uma família de produtos exclusivos, inovadores e patenteados, desenvolvidos por veterinários para cães e gatos. - São produzidos com borracha de grau humano (TPR) e completamente atóxicos, não contendo silicone ou substâncias tóxicas que possam prejudicar seus melhores amigos. - Disponível em vários formatos e cores, favor consultar disponibilidade ou se houver dúvidas. - Este produto deve ser utilizado com supervisão do dono, se houver muitos danos deve ser substituído. - Recomendado para filhotes de cães de todos os tamanhos. - Composição: Borracha de grau humano atóxica. - Dimensões Aproximadas: 20 x 20 cm&price=R$ 135,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Lick Mat Ufo Azul'."
   },
+  {
+    category:"tapetes_para_alimentacao",
+    imgSrc: "./assets/images/products/pawise-lick-it-quadrado-azul.jpg",
+    altText: "Pawise Lick It Azul",
+    nameTitle: "Pawise Lick It Azul",
+    title: "Pawise Lick It Azul",
+    price: "R$ 92,00",
+    pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=pawise-lick-it-quadrado-azul.jpg&showcaseTitle=Pawise Lick It Azul&showcaseDesc=Os tapetes Licker são uma ótima maneira de enriquecer seus cães e ajudar na digestão. A sucção forte ajuda a manter o lambedor no chão. Pode ser usado para alimentos úmidos e secos e é fácil de limpar. Um tapete lambedor de cães é um tapete especializado projetado para promover calma e relaxamento em cães. Ele apresenta uma série de pequenas saliências ou cristas que o cão pode lamber ou mordiscar. A ideia por trás do tapete lambedor de cachorro é que o movimento repetitivo de lamber pode ajudar a acalmar e acalmar o cão, reduzindo a ansiedade e o estresse. A textura do tapete também pode fornecer estimulação sensorial e ajudar a distrair o cão de outros estímulos que possam estar causando ansiedade ou excitação.&price=R$ 92,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Pawise Lick It Azul'."
+  },
 
 ];
 
