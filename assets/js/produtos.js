@@ -314,7 +314,7 @@ productMainDiv.classList.add("product-main");
 
 const titleH2 = document.createElement("h2");
 titleH2.classList.add("title");
-titleH2.textContent = "Petiscos Naturais";
+titleH2.textContent = "";
 
 const productGridDiv = document.createElement("div");
 productGridDiv.classList.add("product-grid");
@@ -331,9 +331,25 @@ function getParameterByName(name, url) {
   return decodeURIComponent(results[2].replace(/\+/g, ' '));
 }
 
+function formatString(inputString) {
+  if (inputString.includes('_')) {
+    // String contains an underscore, split and format as two words
+    const words = inputString.split('_');
+    const formattedWords = words.map(word => word.charAt(0).toUpperCase() + word.slice(1));
+    return formattedWords.join(' ');
+  } else {
+    // String does not contain an underscore, capitalize the first letter
+    return inputString.charAt(0).toUpperCase() + inputString.slice(1);
+  }
+}
+
 // Get the category parameter from the URL
 const category = getParameterByName('category');
 // console.log("Parametro recebido: ",category);
+
+var categoriaFormatada = formatString(category);
+
+titleH2.textContent = categoriaFormatada;
 
 //const category = document.getElementById('showcase').dataset.category;
 
