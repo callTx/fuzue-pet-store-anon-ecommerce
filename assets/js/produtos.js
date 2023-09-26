@@ -297,6 +297,24 @@ const products = [
     price: "R$ 84,00",
     pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=banebone-small-dental-chew.jpg&showcaseTitle=Mordedor Small Dental Chew Banebone&showcaseDesc=O Benebone Dental Chew é um brinquedo que possui um formato arredondado, ergonômico e com ranhuras para aumentar a esfregação dos dentes e, consequentemente, o auxílio na limpeza. Obviamente não substitui a escovação diária, mas ajuda e muito nessa tarefa de manter nossos melhores amigos sem aquele bafinho de zumbi que tanto incomoda no dia a dia.&price=R$ 84,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Mordedor Small Dental Chew Banebone'."
   },
+  {
+    category:"brinquedos_e_mordedores",
+    imgSrc: "./assets/images/products/banebone-small-puppy-wishbone.jpg",
+    altText: "Mordedor Small Puppy Wishbone Banebone",
+    nameTitle: "Mordedor Small Puppy Wishbone Banebone",
+    title: "Mordedor Small Puppy Wishbone Banebone",
+    price: "R$ 84,00",
+    pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=banebone-small-puppy-wishbone.jpg&showcaseTitle=Mordedor Small Puppy Wishbone Banebone&showcaseDesc=O Wishbone é nosso carro-chefe. Já que os cães não têm polegares, por que dar-lhes uma mastigação que você pode pegar e eles não? Com bacon de verdade infundido em todo o processo, o desejo do seu cão se tornará realidade.&price=R$ 84,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Mordedor Small Puppy Wishbone Banebone'."
+  },
+  {
+    category:"brinquedos_e_mordedores",
+    imgSrc: "./assets/images/products/banebone-small-tripe-bone.jpg",
+    altText: "Mordedor Small Tribe Bone Banebone",
+    nameTitle: "Mordedor Small Tribe Bone Banebone",
+    title: "Mordedor Small Tribe Bone Banebone",
+    price: "R$ 84,00",
+    pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=banebone-small-tripe-bone.jpg&showcaseTitle=Mordedor Small Tribe Bone Banebone&showcaseDesc=Experimente o novo e incrível Benebone Tripe Bone - o brinquedo mordedor de nylon que traz sabor e diversão para o seu cão! Feito de nylon durável e com um ingrediente natural especial: tripas. Agora você pode estar se perguntando: o que são tripas? Bem, vamos poupá-lo dos detalhes, mas elas têm um cheiro intenso que faria seus olhos lacrimejarem. No entanto, graças à pequena mágica da Benebone, seu cão irá adorar o sabor e o cheiro desse brinquedo mastigável incrível, e o melhor de tudo é que você não sentirá nenhum odor desagradável.&price=R$ 84,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Mordedor Small Tribe Bone Banebone'."
+  },
 ];
 
 
