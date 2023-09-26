@@ -191,6 +191,16 @@ const products = [
     favorito:"sim"
   },
   {
+    category:"tapetes_para_alimentacao",
+    imgSrc: "./assets/images/products/kong-lick-g-vermelho.jpg",
+    altText: "Kong Lick Tam P Vermelho",
+    nameTitle: "Kong Lick Tam P Vermelho",
+    title: "Kong Lick Tam P Vermelho",
+    price: "R$ 43,00",
+    pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=kong-lick-g-vermelho.jpg,kong-lick-g-vermelho-2.jpg&showcaseTitle=Kong Lick Tam P Vermelho&showcaseDesc=KONG Licks é um brinquedo feito para que o cachorro lamba o conteúdo e, com isso, alivie o estresse, sinta prazer, se distraia e contribua para a limpeza oral. Contém 2 ventosas que aderem à qualquer superfície lisa. Ideal para ser usado com pasta de amendoim e outros petiscos pastosos ou até sólidos. As diferentes superfícies servem para segurar alimento e mudar o desafio durante a sessão de lambidas. Importante: Não é um objeto de roer. Não deve ser deixado sozinho com o cão nem por alguns minutos, até ter certeza de que o cão não irá destruí-lo. Acabado o alimeto, remova e limpe com água e sabão neutro. A garantia não cobre danos feitos pelo cão, apenas defeitos de fabricação. Siga as dicas de uso e indicação de tipo de cão.&price=R$ 43,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Kong Lick Tam P Vermelho'.",
+    favorito:"sim"
+  },
+  {
     category:"outros",
     imgSrc: "./assets/images/products/kong-brush.jpg",
     altText: "Kong Brush",
