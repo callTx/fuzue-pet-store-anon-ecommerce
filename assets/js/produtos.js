@@ -26,7 +26,7 @@ const products = [
     price: "R$ 30,00",
     pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=snack-de-file-suino.jpg&showcaseTitle=Snack Filé Suíno The Bull&showcaseDesc=O Snack de Filé Mignon Suíno The Bull é um petisco desidratado totalmente natural, com um único ingrediente. Fabricado sem adição de farinha de trigo, livre de qualquer conservante, açucares, corantes, aromatizantes e aditivos químicos. É um item indispensável para ser utilizado como recompensa nos treinos dos pets e para enriquecimento ambiental. IMPORTANTE: Este produto não substitui a alimentação principal.&price=R$ 30,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Snack Filé Suíno The Bull'."
   },
-  
+
   {
     category:"petiscos_naturais",
     imgSrc: "./assets/images/products/snack-de-frango.jpg",
@@ -61,7 +61,8 @@ const products = [
     nameTitle: "Snack de Manjuba",
     title: "Snack de Manjuba The Bull",
     price: "R$ 30,00",
-    pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=snack-de-manjuba.jpg&showcaseTitle=Snack de Manjuba The Bull&showcaseDesc=Os petiscos desidratados são perfeitos para utilização durante os treinos e enriquecimento ambiental. Preparados com muito amor, a nossa linha de desidratados é produzida com um único ingrediente. Ou seja, sem adição de trigo, livre de qualquer conservante, açucares, corantes, aromatizantes e aditivos químicos. Para manter seus petiscos fresquinhos por mais tempo, você deve mante-lo em local fresco, seco e ao abrigo da luz solar. Após abrir, você pode armazenar em um pote com tampa ou na mesma embalagem bem fechada e, consumir preferencialmente em até 20 dias.&price=R$ 30,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Snack de Manjuba The Bull'."
+    pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=snack-de-manjuba.jpg&showcaseTitle=Snack de Manjuba The Bull&showcaseDesc=Os petiscos desidratados são perfeitos para utilização durante os treinos e enriquecimento ambiental. Preparados com muito amor, a nossa linha de desidratados é produzida com um único ingrediente. Ou seja, sem adição de trigo, livre de qualquer conservante, açucares, corantes, aromatizantes e aditivos químicos. Para manter seus petiscos fresquinhos por mais tempo, você deve mante-lo em local fresco, seco e ao abrigo da luz solar. Após abrir, você pode armazenar em um pote com tampa ou na mesma embalagem bem fechada e, consumir preferencialmente em até 20 dias.&price=R$ 30,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Snack de Manjuba The Bull'.",
+    filtro:'favorito'
   },
   {
     category:"petiscos_naturais",
@@ -151,7 +152,8 @@ const products = [
     nameTitle: "Tapetes para Alimentação Pawise Lick It Azul Quadrado",
     title: "Tapetes para Alimentação Pawise Lick It Azul Quadrado",
     price: "R$ 92,00",
-    pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=pawise-lick-it-quadrado-azul.jpg,pawise-lick-it-quadrado-azul-2.jpg&showcaseTitle=Tapetes para Alimentação Pawise Lick It Azul Quadrado&showcaseDesc=Os tapetes Licker são uma ótima maneira de enriquecer seus cães e ajudar na digestão. A sucção forte ajuda a manter o lambedor no chão. Pode ser usado para alimentos úmidos e secos e é fácil de limpar. Um tapete lambedor de cães é um tapete especializado projetado para promover calma e relaxamento em cães. Ele apresenta uma série de pequenas saliências ou cristas que o cão pode lamber ou mordiscar. A ideia por trás do tapete lambedor de cachorro é que o movimento repetitivo de lamber pode ajudar a acalmar e acalmar o cão, reduzindo a ansiedade e o estresse. A textura do tapete também pode fornecer estimulação sensorial e ajudar a distrair o cão de outros estímulos que possam estar causando ansiedade ou excitação.&price=R$ 92,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Tapetes para Alimentação Pawise Lick It Azul'."
+    pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=pawise-lick-it-quadrado-azul.jpg,pawise-lick-it-quadrado-azul-2.jpg&showcaseTitle=Tapetes para Alimentação Pawise Lick It Azul Quadrado&showcaseDesc=Os tapetes Licker são uma ótima maneira de enriquecer seus cães e ajudar na digestão. A sucção forte ajuda a manter o lambedor no chão. Pode ser usado para alimentos úmidos e secos e é fácil de limpar. Um tapete lambedor de cães é um tapete especializado projetado para promover calma e relaxamento em cães. Ele apresenta uma série de pequenas saliências ou cristas que o cão pode lamber ou mordiscar. A ideia por trás do tapete lambedor de cachorro é que o movimento repetitivo de lamber pode ajudar a acalmar e acalmar o cão, reduzindo a ansiedade e o estresse. A textura do tapete também pode fornecer estimulação sensorial e ajudar a distrair o cão de outros estímulos que possam estar causando ansiedade ou excitação.&price=R$ 92,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Tapetes para Alimentação Pawise Lick It Azul'.",
+    filtro:'favorito'
   },
   {
     category:"tapetes_para_alimentacao",
@@ -169,7 +171,8 @@ const products = [
     nameTitle: "Kong Lick Tam G Vermelho",
     title: "Kong Lick Tam G Vermelho",
     price: "R$ 73,00",
-    pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=kong-lick-g-vermelho.jpg,kong-lick-g-vermelho-2.jpg&showcaseTitle=Kong Lick Tam G Vermelho&showcaseDesc=KONG Licks é um brinquedo feito para que o cachorro lamba o conteúdo e, com isso, alivie o estresse, sinta prazer, se distraia e contribua para a limpeza oral. Contém 2 ventosas que aderem à qualquer superfície lisa. Ideal para ser usado com pasta de amendoim e outros petiscos pastosos ou até sólidos. As diferentes superfícies servem para segurar alimento e mudar o desafio durante a sessão de lambidas. Importante: Não é um objeto de roer. Não deve ser deixado sozinho com o cão nem por alguns minutos, até ter certeza de que o cão não irá destruí-lo. Acabado o alimeto, remova e limpe com água e sabão neutro. A garantia não cobre danos feitos pelo cão, apenas defeitos de fabricação. Siga as dicas de uso e indicação de tipo de cão.&price=R$ 73,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Kong Lick Tam G Vermelho'."
+    pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=kong-lick-g-vermelho.jpg,kong-lick-g-vermelho-2.jpg&showcaseTitle=Kong Lick Tam G Vermelho&showcaseDesc=KONG Licks é um brinquedo feito para que o cachorro lamba o conteúdo e, com isso, alivie o estresse, sinta prazer, se distraia e contribua para a limpeza oral. Contém 2 ventosas que aderem à qualquer superfície lisa. Ideal para ser usado com pasta de amendoim e outros petiscos pastosos ou até sólidos. As diferentes superfícies servem para segurar alimento e mudar o desafio durante a sessão de lambidas. Importante: Não é um objeto de roer. Não deve ser deixado sozinho com o cão nem por alguns minutos, até ter certeza de que o cão não irá destruí-lo. Acabado o alimeto, remova e limpe com água e sabão neutro. A garantia não cobre danos feitos pelo cão, apenas defeitos de fabricação. Siga as dicas de uso e indicação de tipo de cão.&price=R$ 73,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Kong Lick Tam G Vermelho'.",
+    filtro:'favorito'
   },
   {
     category:"outros",
@@ -241,7 +244,8 @@ const products = [
     nameTitle: "Kong Goodie Bone",
     title: "Kong Goodie Bone",
     price: "R$ 99,00",
-    pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=kong-goodie-bone.jpg&showcaseTitle=Kong Goodie Bone&showcaseDesc=O brinquedo Kong Goodie Bone envolve cães que se deleitam com sessões de mastigação. Feito a partir da fórmula de borracha vermelha natural única KONG Classic, este osso apresenta o goodie grippers patenteado que transformam este brinquedo divertido em um desafio de distribuição de guloseimas divertido que pode ser recheado com o kibble favorito do seu cão. Quer estender a sessão de mastigação? Coisas com kong snacks e seduzir com um pouco de KONG Easy Treat. Recomendado para cães de 7 a 16 kg peso: 0245 g comprimento: 18 cm.&price=R$ 99,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Kong Goodie Bone'."
+    pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=kong-goodie-bone.jpg&showcaseTitle=Kong Goodie Bone&showcaseDesc=O brinquedo Kong Goodie Bone envolve cães que se deleitam com sessões de mastigação. Feito a partir da fórmula de borracha vermelha natural única KONG Classic, este osso apresenta o goodie grippers patenteado que transformam este brinquedo divertido em um desafio de distribuição de guloseimas divertido que pode ser recheado com o kibble favorito do seu cão. Quer estender a sessão de mastigação? Coisas com kong snacks e seduzir com um pouco de KONG Easy Treat. Recomendado para cães de 7 a 16 kg peso: 0245 g comprimento: 18 cm.&price=R$ 99,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Kong Goodie Bone'.",
+    filtro:'favorito'
   },
   {
     category:"brinquedos_e_mordedores",
@@ -381,16 +385,24 @@ function formatString(inputString) {
 
 // Get the category parameter from the URL
 const category = getParameterByName('category');
-console.log("category: ",category);
+// console.log("category: ",category);
 // console.log("Parametro recebido: ",category);
+
+const filtro = getParameterByName('filtro');
 
 var categoriaFormatada = formatString(category);
 
 titleH2.textContent = categoriaFormatada;
 
 //const category = document.getElementById('showcase').dataset.category;
-
-const filteredProducts = products.filter(product => product.category === category);
+const filteredProducts = any;
+if (category != null){
+   filteredProducts = products.filter(product => product.category === category);
+}else{
+  if (filtro != null){
+    filteredProducts = products.filter(product => product.category === filtro);
+  }
+}
 
 filteredProducts.forEach((product) => {
   // parametrosFormatados =  replaceSpacesWithPercent20(product.parametros);
