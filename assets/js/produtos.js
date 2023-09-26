@@ -192,7 +192,7 @@ const products = [
   },
   {
     category:"outros",
-    imgSrc: "./assets/images/products/kong-brusho.jpg",
+    imgSrc: "./assets/images/products/kong-brush.jpg",
     altText: "Kong Brush",
     nameTitle: "Kong Brush",
     title: "Kong Brush",
@@ -358,6 +358,16 @@ const products = [
     title: "Mordedor Small Tribe Bone Banebone",
     price: "R$ 84,00",
     pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=banebone-small-tripe-bone.jpg&showcaseTitle=Mordedor Small Tribe Bone Banebone&showcaseDesc=Experimente o novo e incrível Benebone Tripe Bone - o brinquedo mordedor de nylon que traz sabor e diversão para o seu cão! Feito de nylon durável e com um ingrediente natural especial: tripas. Agora você pode estar se perguntando: o que são tripas? Bem, vamos poupá-lo dos detalhes, mas elas têm um cheiro intenso que faria seus olhos lacrimejarem. No entanto, graças à pequena mágica da Benebone, seu cão irá adorar o sabor e o cheiro desse brinquedo mastigável incrível, e o melhor de tudo é que você não sentirá nenhum odor desagradável.&price=R$ 84,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Mordedor Small Tribe Bone Banebone'.",
+    favorito:"nao"
+  },
+  {
+    category:"brinquedos_e_mordedores",
+    imgSrc: "./assets/images/products/banebone-fish.jpg",
+    altText: "Mordedor Banebone Fish",
+    nameTitle: "Mordedor Banebone Fish",
+    title: "Mordedor Banebone Fish",
+    price: "R$ 124,00",
+    pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=banebone-fish.jpg&showcaseTitle=Mordedor Banebone Fish&showcaseDesc=Benebone Fishbone para cachorro é a grande novidade da Benebone dos últimos tempos. São dois ingredientes. Nylon e peixe de verdade. Os narizes humanos mais apurados conseguirão sentir um leve cheiro de peixe, mas para os focinhos ultra poderosos dos nossos cães será como uma invasão de cheiro irresistível. O objetivo é satisfazer a necessidade inata que os cães têm de roer. Em vez de utilizarem pedras, objetos da casa, ou outros objetos duros que podem soltar farpas e cortar a boca dos cães, eles utilizarão o que existe de melhor no mundo para isso.&price=R$ 124,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Mordedor Banebone Fish'.",
     favorito:"nao"
   },
   {
