@@ -390,14 +390,14 @@ const category = getParameterByName('category');
 
 const filtro = getParameterByName('filtro');
 
-var categoriaFormatada = formatString(category);
-
-titleH2.textContent = categoriaFormatada;
 
 //const category = document.getElementById('showcase').dataset.category;
 const filteredProducts = any;
 if (category != null){
-   filteredProducts = products.filter(product => product.category === category);
+    var categoriaFormatada = formatString(category);
+
+    titleH2.textContent = categoriaFormatada;
+    filteredProducts = products.filter(product => product.category === category);
 }else{
   if (filtro != null){
     filteredProducts = products.filter(product => product.category === filtro);
