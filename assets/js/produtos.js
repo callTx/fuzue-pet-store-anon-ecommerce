@@ -172,7 +172,7 @@ const products = [
     pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=kong-lick-g-vermelho.jpg,kong-lick-g-vermelho-2.jpg&showcaseTitle=Kong Lick Tam G Vermelho&showcaseDesc=KONG Licks é um brinquedo feito para que o cachorro lamba o conteúdo e, com isso, alivie o estresse, sinta prazer, se distraia e contribua para a limpeza oral. Contém 2 ventosas que aderem à qualquer superfície lisa. Ideal para ser usado com pasta de amendoim e outros petiscos pastosos ou até sólidos. As diferentes superfícies servem para segurar alimento e mudar o desafio durante a sessão de lambidas. Importante: Não é um objeto de roer. Não deve ser deixado sozinho com o cão nem por alguns minutos, até ter certeza de que o cão não irá destruí-lo. Acabado o alimeto, remova e limpe com água e sabão neutro. A garantia não cobre danos feitos pelo cão, apenas defeitos de fabricação. Siga as dicas de uso e indicação de tipo de cão.&price=R$ 73,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Kong Lick Tam G Vermelho'."
   },
   {
-    category:"kongs",
+    category:"outros",
     imgSrc: "./assets/images/products/kong-brusho.jpg",
     altText: "Kong Brush",
     nameTitle: "Kong Brush",
@@ -323,6 +323,15 @@ const products = [
     title: "Mordedor Small Tribe Bone Banebone",
     price: "R$ 84,00",
     pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=banebone-small-tripe-bone.jpg&showcaseTitle=Mordedor Small Tribe Bone Banebone&showcaseDesc=Experimente o novo e incrível Benebone Tripe Bone - o brinquedo mordedor de nylon que traz sabor e diversão para o seu cão! Feito de nylon durável e com um ingrediente natural especial: tripas. Agora você pode estar se perguntando: o que são tripas? Bem, vamos poupá-lo dos detalhes, mas elas têm um cheiro intenso que faria seus olhos lacrimejarem. No entanto, graças à pequena mágica da Benebone, seu cão irá adorar o sabor e o cheiro desse brinquedo mastigável incrível, e o melhor de tudo é que você não sentirá nenhum odor desagradável.&price=R$ 84,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Mordedor Small Tribe Bone Banebone'."
+  },
+  {
+    category:"outros",
+    imgSrc: "./assets/images/products/kong-travel.jpg",
+    altText: "Kong Travel",
+    nameTitle: "Kong Travel",
+    title: "Kong Travel",
+    price: "R$ 84,00",
+    pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=kong-travel.jpg&showcaseTitle=Kong Travel&showcaseDesc=Lançamento de 2023, essa petisqueira da Kong tem tudo para se tornar a queridinha da galera! Linda, como toda a linha M&S Travel da Kong! Compacta e simples! Possui forro interno impermeável e seguro para alimentos, cordão para fechamento, bolsinho externo em tela, alça para passar no cinto e mosquetão do tipo de alpinista para prender em qualquer lugar. Para referência de tamanho, ela caba até um Kong Clássico Large.&price=R$ 84,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Kong Travel'."
   },
 ];
 
