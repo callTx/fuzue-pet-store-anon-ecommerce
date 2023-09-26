@@ -186,8 +186,8 @@ const products = [
     altText: "Pelúcia Kong Reefz",
     nameTitle: "Pelúcia Kong Reefz",
     title: "Pelúcia Kong Reefz",
-    price: "R$ 81,00",
-    pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=kong-reefz.jpg&showcaseTitle=Pelúcia Kong Reefz&showcaseDesc=O KONG Reefz apresenta várias texturas que recompensam os comportamentos de mastigação instintivos.O material KONG Ballistic durável e os corpos lisos e flexíveis incentivam as brincadeiras de sacudir.&price=R$ 81,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Pelúcia Kong Reefz'."
+    price: "R$ 94,00",
+    pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=kong-reefz.jpg&showcaseTitle=Pelúcia Kong Reefz&showcaseDesc=O KONG Reefz apresenta várias texturas que recompensam os comportamentos de mastigação instintivos.O material KONG Ballistic durável e os corpos lisos e flexíveis incentivam as brincadeiras de sacudir.&price=R$ 94,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Pelúcia Kong Reefz'."
   },
   {
     category:"pelucias",
@@ -195,8 +195,8 @@ const products = [
     altText: "Pelúcia Kong Maxx Bone",
     nameTitle: "Pelúcia Kong Maxx Bone",
     title: "Pelúcia Kong Maxx Bone",
-    price: "R$ 81,00",
-    pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=kong-bone.jpg&showcaseTitle=Pelúcia Kong Maxx Bone&showcaseDesc=Pelucia Kong Maxx é um brinquedo desenvolvido para cães mordidas leves e moderadas e não destruidores. É um brinquedo extremamente durável para ser jogado para brincadeiras interativas de luta e jogar e buscar. Fabricado com um material desafiador, 5 vezes mais durável à perfuração que um tecido convencional. Possui apito para aumentar ainda mais o estímulo da brincadeira. Importante: Não é um objeto de roer. Não deve ser deixado sozinho com o cão nem por alguns minutos, até ter certeza de que o cão não irá destruí-lo,. Para cães com mordida forte e destruidores, prefira os brinquedos de borracha natural. Acabada a brincadeira, guarde para a próxima. Composição: Tecidos e apito.&price=R$ 81,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Pelúcia Kong Maxx Bone'."
+    price: "R$ 140,00",
+    pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=kong-bone.jpg&showcaseTitle=Pelúcia Kong Maxx Bone&showcaseDesc=Pelucia Kong Maxx é um brinquedo desenvolvido para cães mordidas leves e moderadas e não destruidores. É um brinquedo extremamente durável para ser jogado para brincadeiras interativas de luta e jogar e buscar. Fabricado com um material desafiador, 5 vezes mais durável à perfuração que um tecido convencional. Possui apito para aumentar ainda mais o estímulo da brincadeira. Importante: Não é um objeto de roer. Não deve ser deixado sozinho com o cão nem por alguns minutos, até ter certeza de que o cão não irá destruí-lo,. Para cães com mordida forte e destruidores, prefira os brinquedos de borracha natural. Acabada a brincadeira, guarde para a próxima. Composição: Tecidos e apito.&price=R$ 140,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Pelúcia Kong Maxx Bone'."
   },
   {
     category:"pelucias",
@@ -204,8 +204,8 @@ const products = [
     altText: "Pelúcia Kong Shakers",
     nameTitle: "Pelúcia Kong Shakers",
     title: "Pelúcia Kong Shakers",
-    price: "R$ 81,00",
-    pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=kong-shakers-vermelho.jpg,kong-shakers-vermelho-2.jpg&showcaseTitle=Pelúcia Kong Shakers&showcaseDesc=KONG Shakers Shimmy Crab é um brinquedo desenvolvido para cães de mordida leve e não destruidores. Desenhado com tamanho grande com abas gigantescas que satisfazem o instinto de chacoalhar a presa, dos cães. O corpo alongado torna o ato de chacoalhar mais divertido. Possui apitos para aumentar o engajamento. As abas possuem estalidos para estimular ainda mais o seu cão. Perfeito pra ser jogado em brincadeiras de jogar e trazer. Importante: Não é um objeto de roer. Não deve ser deixado sozinho com o cão nem por alguns minutos, até ter certeza de que o cão não irá destruí-lo,. Destinado à cães com mordidas leves. Para cães com mordida forte e destruidores, prefira os brinquedos de borracha natural.  Acabada a brincadeira, guarde para a próxima.&price=R$ 81,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Pelúcia Kong Shakers'."
+    price: "R$ 118,00",
+    pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=kong-shakers-vermelho.jpg,kong-shakers-vermelho-2.jpg&showcaseTitle=Pelúcia Kong Shakers&showcaseDesc=KONG Shakers Shimmy Crab é um brinquedo desenvolvido para cães de mordida leve e não destruidores. Desenhado com tamanho grande com abas gigantescas que satisfazem o instinto de chacoalhar a presa, dos cães. O corpo alongado torna o ato de chacoalhar mais divertido. Possui apitos para aumentar o engajamento. As abas possuem estalidos para estimular ainda mais o seu cão. Perfeito pra ser jogado em brincadeiras de jogar e trazer. Importante: Não é um objeto de roer. Não deve ser deixado sozinho com o cão nem por alguns minutos, até ter certeza de que o cão não irá destruí-lo,. Destinado à cães com mordidas leves. Para cães com mordida forte e destruidores, prefira os brinquedos de borracha natural.  Acabada a brincadeira, guarde para a próxima.&price=R$ 118,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Pelúcia Kong Shakers'."
   },
   {
     category:"pelucias",
@@ -213,10 +213,81 @@ const products = [
     altText: "Pelúcia Kong Shakers Baleia",
     nameTitle: "Pelúcia Kong Baleia",
     title: "Pelúcia Kong Shakers Baleia",
-    price: "R$ 81,00",
-    pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=kong-shakers-whale-azul.jpg&showcaseTitle=Pelúcia Kong Shakers&showcaseDesc=KONG Shakers Shimmy Whale é um brinquedo desenvolvido para cães de mordida leve e não destruidores. Desenhado com tamanho grande com abas gigantescas que satisfazem o instinto de chacoalhar a presa, dos cães. O corpo alongado torna o ato de chacoalhar mais divertido. Possui apitos para aumentar o engajamento. As abas possuem estalidos para estimular ainda mais o seu cão. Perfeito pra ser jogado em brincadeiras de jogar e trazer. Importante: Não é um objeto de roer. Não deve ser deixado sozinho com o cão nem por alguns minutos, até ter certeza de que o cão não irá destruí-lo,. Destinado à cães com mordidas leves. Para cães com mordida forte e destruidores, prefira os brinquedos de borracha natural.  Acabada a brincadeira, guarde para a próxima.&price=R$ 81,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Pelúcia Kong Shakers Baleia'."
+    price: "R$ 118,00",
+    pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=kong-shakers-whale-azul.jpg&showcaseTitle=Pelúcia Kong Shakers&showcaseDesc=KONG Shakers Shimmy Whale é um brinquedo desenvolvido para cães de mordida leve e não destruidores. Desenhado com tamanho grande com abas gigantescas que satisfazem o instinto de chacoalhar a presa, dos cães. O corpo alongado torna o ato de chacoalhar mais divertido. Possui apitos para aumentar o engajamento. As abas possuem estalidos para estimular ainda mais o seu cão. Perfeito pra ser jogado em brincadeiras de jogar e trazer. Importante: Não é um objeto de roer. Não deve ser deixado sozinho com o cão nem por alguns minutos, até ter certeza de que o cão não irá destruí-lo,. Destinado à cães com mordidas leves. Para cães com mordida forte e destruidores, prefira os brinquedos de borracha natural.  Acabada a brincadeira, guarde para a próxima.&price=R$ 118,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Pelúcia Kong Shakers Baleia'."
   },
-
+  {
+    category:"brinquedos_e_mordedores",
+    imgSrc: "./assets/images/products/kong-rerun.jpg",
+    altText: "Kong ReRun Whoosh",
+    nameTitle: "Kong ReRun Whoosh",
+    title: "Kong ReRun Whoosh",
+    price: "R$ 98,00",
+    pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=kong-rerun.jpg&showcaseTitle=Kong ReRun Whoosh&showcaseDesc=A bola Kong Rerun Whoosh é um brinquedo feito para segurar petiscos e que ajuda a limpar os dentes e gengivas. Possui um apito que mais lembra uma ventania, mais silencioso para não perturbar os papais. Perfeito pra ser jogado em brincadeiras de jogar e trazer. Formato único para que ser mais fácil de agarrar. Fabricado com materiais reciclados. Importante: Não é um objeto de roer. Não deve ser deixado sozinho com o cão nem por alguns minutos, até ter certeza de que o cão não irá destruí-lo.&price=R$ 98,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Kong ReRun Whoosh'."
+  },
+  {
+    category:"brinquedos_e_mordedores",
+    imgSrc: "./assets/images/products/kong-goodie-bone.jpg",
+    altText: "Kong Goodie Bone",
+    nameTitle: "Kong Goodie Bone",
+    title: "Kong Goodie Bone",
+    price: "R$ 99,00",
+    pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=kong-goodie-bone.jpg&showcaseTitle=Kong Goodie Bone&showcaseDesc=O brinquedo Kong Goodie Bone envolve cães que se deleitam com sessões de mastigação. Feito a partir da fórmula de borracha vermelha natural única KONG Classic, este osso apresenta o goodie grippers patenteado que transformam este brinquedo divertido em um desafio de distribuição de guloseimas divertido que pode ser recheado com o kibble favorito do seu cão. Quer estender a sessão de mastigação? Coisas com kong snacks e seduzir com um pouco de KONG Easy Treat. Recomendado para cães de 7 a 16 kg peso: 0245 g comprimento: 18 cm.&price=R$ 99,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Kong Goodie Bone'."
+  },
+  {
+    category:"brinquedos_e_mordedores",
+    imgSrc: "./assets/images/products/kong-chi-chewy.jpg",
+    altText: "Kong ChiChewy",
+    nameTitle: "Kong ChiChewy",
+    title: "Kong ChiChewy",
+    price: "R$ 68,00",
+    pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=kong-chi-chewy.jpg&showcaseTitle=Kong ChiChewy&showcaseDesc=O KONG Chichewy Zippz Ball é o brinquedo que vai conquistar o coração do seu peludo! Feito especialmente para cães com mordidas leves a moderadas, ele é perfeito para estimular os instintos de forrageamento do seu amigão. E não para por aí, ele também é ótimo para brincadeiras de jogar e trazer e até mesmo para uma boa sessão de mordidas!.&price=R$ 68,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Kong ChiChewy'."
+  },
+  {
+    category:"brinquedos_e_mordedores",
+    imgSrc: "./assets/images/products/kong-puppy.jpg",
+    altText: "Kong Puppy",
+    nameTitle: "Kong Puppy",
+    title: "Kong Puppy",
+    price: "R$ 98,00",
+    pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=kong-puppy.jpg&showcaseTitle=Kong Puppy&showcaseDesc=O brinquedo para cães Puppy KONG é personalizado para os dentes do bebê em crescimento, ajuda a ensinar o comportamento adequado da mastigação, oferecendo enriquecimento e satisfazendo as necessidades instintivas de um filhote mais jovem, enquanto o formato irregular o torna ideal para aqueles filhotes que apenas querem brincar.&price=R$ 98,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Kong Puppy'."
+  },
+  {
+    category:"brinquedos_e_mordedores",
+    imgSrc: "./assets/images/products/kong-classic-vermelho.jpg",
+    altText: "Kong Classic",
+    nameTitle: "Kong Classic",
+    title: "Kong Classic",
+    price: "R$ 134,00",
+    pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=kong-classic-vermelho.jpg&showcaseTitle=Kong Classic&showcaseDesc=O KONG (esse brinquedo vermelho, de borracha com cara de boneco de neve) foi inventado há mais de 40 anos como um brinquedo muito resistente para ser jogado e mastigado por cães no mundo todo. Com o tempo, passou a ser usado, também, como ferramenta de enriquecimento ambiental.&price=R$ 134,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Kong Classic'."
+  },
+  {
+    category:"brinquedos_e_mordedores",
+    imgSrc: "./assets/images/products/pawise-dog-smart-tranner.jpg",
+    altText: "Pawise Dog Smart Tranner",
+    nameTitle: "Pawise Dog Smart Tranner",
+    title: "Pawise Dog Smart Tranner",
+    price: "R$ 116,00",
+    pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=pawise-dog-smart-tranner.jpg,pawise-dog-smart-tranner-1.jpg&showcaseTitle=Pawise Dog Smart Tranner&showcaseDesc=Pawise Dog Smart Trainer é um brinquedo de estimulação mental e quebra-cabeça para cães. Uma ótima maneira de desafiar seu cão. Esconda as guloseimas sob os controles deslizantes e deixe seu cachorro cheirar, dar a pata e cheirar o brinquedo para chegar às guloseimas escondidas dentro dele.&price=R$ 116,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Pawise Dog Smart Tranner'."
+  },
+  {
+    category:"brinquedos_e_mordedores",
+    imgSrc: "./assets/images/products/pawise-creedy-snake-verde.jpg",
+    altText: "Pawise Creedy Snake Verde",
+    nameTitle: "Pawise Creedy Snake Verde",
+    title: "Pawise Creedy Snake Verde",
+    price: "R$ 56,00",
+    pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=pawise-creedy-snake-verde.jpg,pawise-creedy-snake-verde-2.jpg&showcaseTitle=Pawise Creedy Snake Verde&showcaseDesc=Atraente e mentalmente estimulante quando recheado com ração, guloseimas e manteiga ou pasta de amendoim. Retarda a alimentação do seu animal de estimação, o que melhora a digestão e minimiza o inchaço.&price=R$ 56,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Pawise Creedy Snake Verde'."
+  },
+  {
+    category:"brinquedos_e_mordedores",
+    imgSrc: "./assets/images/products/small-zaggler-banebone.jpg",
+    altText: "Small Zaggler Banebone",
+    nameTitle: "Small Zaggler Banebone",
+    title: "Small Zaggler Banebone",
+    price: "R$ 84,00",
+    pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=small-zaggler-banebone.jpg&showcaseTitle=Small Zaggler Banebone&showcaseDesc=Os cães adoram mastigar, especialmente coisas que têm gosto de bacon de verdade. Eles também adoram um bom jogo de perseguição. Entra o Zaggler. O Zaggler gosta de rolar e brincar de perseguição. Infundido com bacon de verdade, esse mastigar está em constante movimento.&price=R$ 84,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Small Zaggler Banebone'."
+  },
 ];
 
 
