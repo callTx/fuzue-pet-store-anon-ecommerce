@@ -332,6 +332,7 @@ const products = [
     title: "Kong Travel",
     price: "R$ 84,00",
     pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=kong-travel.jpg&showcaseTitle=Kong Travel&showcaseDesc=Lançamento de 2023, essa petisqueira da Kong tem tudo para se tornar a queridinha da galera! Linda, como toda a linha M&S Travel da Kong! Compacta e simples! Possui forro interno impermeável e seguro para alimentos, cordão para fechamento, bolsinho externo em tela, alça para passar no cinto e mosquetão do tipo de alpinista para prender em qualquer lugar. Para referência de tamanho, ela caba até um Kong Clássico Large.&price=R$ 84,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Kong Travel'."
+    
   },
 ];
 
@@ -380,8 +381,7 @@ function formatString(inputString) {
 }
 
 // Get the category parameter from the URL
-const category = getParameterByName('category');
-console.log("category: ",category);
+const category = 'favorito';
 // console.log("Parametro recebido: ",category);
 
 var categoriaFormatada = formatString(category);
