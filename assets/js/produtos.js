@@ -163,7 +163,7 @@ const products = [
     pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=pawise-lick-it-redondo-azul.jpg,pawise-lick-it-redondo-azul-2.jpg&showcaseTitle=Tapetes para Alimentação Pawise Lick It Azul Redondo&showcaseDesc=Os tapetes Licker são uma ótima maneira de enriquecer seus cães e ajudar na digestão. A sucção forte ajuda a manter o lambedor no chão. Pode ser usado para alimentos úmidos e secos e é fácil de limpar. Um tapete lambedor de cães é um tapete especializado projetado para promover calma e relaxamento em cães. Ele apresenta uma série de pequenas saliências ou cristas que o cão pode lamber ou mordiscar. A ideia por trás do tapete lambedor de cachorro é que o movimento repetitivo de lamber pode ajudar a acalmar e acalmar o cão, reduzindo a ansiedade e o estresse. A textura do tapete também pode fornecer estimulação sensorial e ajudar a distrair o cão de outros estímulos que possam estar causando ansiedade ou excitação.&price=R$ 92,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Tapetes para Alimentação Pawise Lick It Azul Redondo'."
   },
   {
-    category:"kongs",
+    category:"tapetes_para_alimentacao",
     imgSrc: "./assets/images/products/kong-lick-g-vermelho.jpg",
     altText: "Kong Lick Tam G Vermelho",
     nameTitle: "Kong Lick Tam G Vermelho",
@@ -330,8 +330,8 @@ const products = [
     altText: "Kong Travel",
     nameTitle: "Kong Travel",
     title: "Kong Travel",
-    price: "R$ 84,00",
-    pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=kong-travel.jpg&showcaseTitle=Kong Travel&showcaseDesc=Lançamento de 2023, essa petisqueira da Kong tem tudo para se tornar a queridinha da galera! Linda, como toda a linha M&S Travel da Kong! Compacta e simples! Possui forro interno impermeável e seguro para alimentos, cordão para fechamento, bolsinho externo em tela, alça para passar no cinto e mosquetão do tipo de alpinista para prender em qualquer lugar. Para referência de tamanho, ela caba até um Kong Clássico Large.&price=R$ 84,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Kong Travel'."
+    price: "R$ 105,00",
+    pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=kong-travel.jpg&showcaseTitle=Kong Travel&showcaseDesc=Lançamento de 2023, essa petisqueira da Kong tem tudo para se tornar a queridinha da galera! Linda, como toda a linha M&S Travel da Kong! Compacta e simples! Possui forro interno impermeável e seguro para alimentos, cordão para fechamento, bolsinho externo em tela, alça para passar no cinto e mosquetão do tipo de alpinista para prender em qualquer lugar. Para referência de tamanho, ela caba até um Kong Clássico Large.&price=R$ 105,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Kong Travel'."
   },
 ];
 
