@@ -392,7 +392,7 @@ const filtro = getParameterByName('filtro');
 
 
 //const category = document.getElementById('showcase').dataset.category;
-const filteredProducts = null;
+var filteredProducts = null;
 if (category != null){
     var categoriaFormatada = formatString(category);
 
