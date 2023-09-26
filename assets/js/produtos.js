@@ -282,11 +282,11 @@ const products = [
   {
     category:"brinquedos_e_mordedores",
     imgSrc: "./assets/images/products/small-zaggler-banebone.jpg",
-    altText: "Small Zaggler Banebone",
-    nameTitle: "Small Zaggler Banebone",
-    title: "Small Zaggler Banebone",
+    altText: "Mordedor Small Zaggler Banebone",
+    nameTitle: "Mordedor Small Zaggler Banebone",
+    title: "Mordedor Small Zaggler Banebone",
     price: "R$ 84,00",
-    pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=small-zaggler-banebone.jpg&showcaseTitle=Small Zaggler Banebone&showcaseDesc=Os cães adoram mastigar, especialmente coisas que têm gosto de bacon de verdade. Eles também adoram um bom jogo de perseguição. Entra o Zaggler. O Zaggler gosta de rolar e brincar de perseguição. Infundido com bacon de verdade, esse mastigar está em constante movimento.&price=R$ 84,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Small Zaggler Banebone'."
+    pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=small-zaggler-banebone.jpg&showcaseTitle=Small Zaggler Banebone&showcaseDesc=Os cães adoram mastigar, especialmente coisas que têm gosto de bacon de verdade. Eles também adoram um bom jogo de perseguição. Entra o Zaggler. O Zaggler gosta de rolar e brincar de perseguição. Infundido com bacon de verdade, esse mastigar está em constante movimento.&price=R$ 84,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Mordedor Small Zaggler Banebone'."
   },
 ];
 
