@@ -422,20 +422,25 @@ const category = getParameterByName('category');
 // console.log("Parametro recebido: ",category);
 
 const favorito = getParameterByName('favorito');
+const titlesection = getParameterByName('titlesection');
 
-var tituloCategoria = formatString(category);
-
-titleH2.textContent = tituloCategoria;
 
 //const category = document.getElementById('showcase').dataset.category;
 var filteredProducts = null;
 if (category != null){
-    
+    var tituloCategoria = formatString(category);
+
+    titleH2.textContent = tituloCategoria;
     filteredProducts = products.filter(product => product.category === category);
 }else{
   if (favorito != null){
 
     filteredProducts = products.filter(product => product.favorito === favorito);
+    if (titlesection != null){
+      var tituloCategoria = formatString(titlesection);
+
+      titleH2.textContent = tituloCategoria;
+    }
   }
 }
 
