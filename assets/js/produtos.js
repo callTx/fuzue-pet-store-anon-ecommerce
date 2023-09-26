@@ -195,8 +195,8 @@ const products = [
     altText: "Pelúcia Kong Maxx Bone",
     nameTitle: "Pelúcia Kong Maxx Bone",
     title: "Pelúcia Kong Maxx Bone",
-    price: "R$ 140,00",
-    pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=kong-bone.jpg&showcaseTitle=Pelúcia Kong Maxx Bone&showcaseDesc=Pelucia Kong Maxx é um brinquedo desenvolvido para cães mordidas leves e moderadas e não destruidores. É um brinquedo extremamente durável para ser jogado para brincadeiras interativas de luta e jogar e buscar. Fabricado com um material desafiador, 5 vezes mais durável à perfuração que um tecido convencional. Possui apito para aumentar ainda mais o estímulo da brincadeira. Importante: Não é um objeto de roer. Não deve ser deixado sozinho com o cão nem por alguns minutos, até ter certeza de que o cão não irá destruí-lo,. Para cães com mordida forte e destruidores, prefira os brinquedos de borracha natural. Acabada a brincadeira, guarde para a próxima. Composição: Tecidos e apito.&price=R$ 140,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Pelúcia Kong Maxx Bone'."
+    price: "R$ 134,00",
+    pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=kong-bone.jpg&showcaseTitle=Pelúcia Kong Maxx Bone&showcaseDesc=Pelucia Kong Maxx é um brinquedo desenvolvido para cães mordidas leves e moderadas e não destruidores. É um brinquedo extremamente durável para ser jogado para brincadeiras interativas de luta e jogar e buscar. Fabricado com um material desafiador, 5 vezes mais durável à perfuração que um tecido convencional. Possui apito para aumentar ainda mais o estímulo da brincadeira. Importante: Não é um objeto de roer. Não deve ser deixado sozinho com o cão nem por alguns minutos, até ter certeza de que o cão não irá destruí-lo,. Para cães com mordida forte e destruidores, prefira os brinquedos de borracha natural. Acabada a brincadeira, guarde para a próxima. Composição: Tecidos e apito.&price=R$ 134,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Pelúcia Kong Maxx Bone'."
   },
   {
     category:"pelucias",
@@ -287,6 +287,15 @@ const products = [
     title: "Mordedor Small Zaggler Banebone",
     price: "R$ 84,00",
     pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=small-zaggler-banebone.jpg&showcaseTitle=Small Zaggler Banebone&showcaseDesc=Os cães adoram mastigar, especialmente coisas que têm gosto de bacon de verdade. Eles também adoram um bom jogo de perseguição. Entra o Zaggler. O Zaggler gosta de rolar e brincar de perseguição. Infundido com bacon de verdade, esse mastigar está em constante movimento.&price=R$ 84,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Mordedor Small Zaggler Banebone'."
+  },
+  {
+    category:"brinquedos_e_mordedores",
+    imgSrc: "./assets/images/products/banebone-small-dental-chew.jpg",
+    altText: "Mordedor Small Dental Chew Banebone",
+    nameTitle: "Mordedor Small Dental Chew Banebone",
+    title: "Mordedor Small Dental Chew Banebone",
+    price: "R$ 84,00",
+    pageSrc: "https://fuzue-pet-store-anon-ecommerce.vercel.app/produtos.html?imgSrcProductName=banebone-small-dental-chew.jpg&showcaseTitle=Mordedor Small Dental Chew Banebone&showcaseDesc=O Benebone Dental Chew é um brinquedo que possui um formato arredondado, ergonômico e com ranhuras para aumentar a esfregação dos dentes e, consequentemente, o auxílio na limpeza. Obviamente não substitui a escovação diária, mas ajuda e muito nessa tarefa de manter nossos melhores amigos sem aquele bafinho de zumbi que tanto incomoda no dia a dia.&price=R$ 84,00&whatsappApiUrl=https://api.whatsapp.com/send?phone=+559184093870&text=Olá! Gostaria de comprar o produto 'Mordedor Small Dental Chew Banebone'."
   },
 ];
 
