@@ -423,16 +423,18 @@ const category = getParameterByName('category');
 
 const favorito = getParameterByName('favorito');
 
+var tituloCategoria = formatString(category);
+
+titleH2.textContent = tituloCategoria;
 
 //const category = document.getElementById('showcase').dataset.category;
 var filteredProducts = null;
 if (category != null){
-    var categoriaFormatada = formatString(category);
-
-    titleH2.textContent = categoriaFormatada;
+    
     filteredProducts = products.filter(product => product.category === category);
 }else{
   if (favorito != null){
+
     filteredProducts = products.filter(product => product.favorito === favorito);
   }
 }
